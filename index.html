@@ -1,0 +1,2737 @@
+<!doctype html>
+<html lang="ru">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link href="css/main.min.css" rel="stylesheet" type="text/css">
+  <link href="css/odometer-theme-default.css" rel="stylesheet" type="text/css">
+  <link href="css/swiper.min.css" rel="stylesheet" type="text/css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,700;1,400&display=swap" rel="stylesheet">
+  <script src="js/single/wow.min.js"></script>
+  <script src="js/single/swiper.min.js"></script>
+  <script src="js/single/odometer.min.js"></script>
+
+  <title>СКФУ</title>
+</head>
+
+<body class="vertical-block">
+
+<header>
+  <div class="top">
+
+    <div class="top__container">
+      <div class="sv_settings text-center" id="sv_settings">
+            <span>Размер шрифта
+                <span class="fs-outer">
+                    <button class="btn btn-default fs-n" id="fs-n">А</button>
+                    <button class="btn btn-default fs-m" id="fs-m">А</button>
+                    <button class="btn btn-default fs-l" id="fs-l">А</button>
+                </span>
+            </span>
+
+        <span class="mgl20">Цветовая схема
+              <span class="cs-outer">
+                  <button class="btn btn-default cs-bw" id="cs-bw">А</button>
+                  <button class="btn btn-default cs-wb" id="cs-wb">А</button>
+                  <button class="btn btn-default cs-bb" id="cs-bb">А</button>
+                  <button class="btn btn-default cs-gb" id="cs-gb">А</button>
+                  <button class="btn btn-default cs-yg" id="cs-yg">А</button>
+              </span>
+            </span>
+
+        <span class="mgl20">Изображения
+              <span class="img-outer">
+                  <button class="btn btn-default" id="img-onoff"><span class="glyphicon glyphicon-picture"></span><span id="img-onoff-text"> Отключить</span></button>
+              </span>
+            </span>
+
+      </div>
+      <a class="link top__link" href="#"><svg class="icon"><use xlink:href="img/svg-sprite.svg#icon-library"></use></svg>Сведения об образовательной организации</a>
+      <a class="link top__link" href="http://www.ncfu.ru/university/antikorrupcionnaya-deyatelnost/"><svg class="icon"><use xlink:href="img/svg-sprite.svg#icon-warning"></use></svg>Противодействие коррупции</a>
+      <a class="link top__link" href="#" id="sv_on"><svg class="icon"><use xlink:href="img/svg-sprite.svg#icon-eye"></use></svg>Версия для слабовидящих</a>
+      <a class="link top__link" href="site-map"><svg class="icon"><use xlink:href="img/svg-sprite.svg#icon-tree"></use></svg>Карта сайта</a>
+    </div>
+  </div>
+
+  <div class="header">
+    <div class="header__container">
+      <div class="header__wrapper">
+        <div class="header__title">
+          <div class="header__title-wrapper">
+            <a class="header__logo" href="/">
+              <img src="img/logo-new.svg" width="195" height="148" alt="Северо-Кавказский федеральный университет">
+            </a>
+
+            <h1 class="header__site-name">Северо-Кавказский <br> федеральный университет</h1>
+          </div>
+        </div>
+        <div class="header__contact">
+
+          <div class="header__kom">
+            <p>Приемная комиссия</p>
+            <p><a class="text-nowrap" href="tel:+78652956813"><svg class="icon"><use xlink:href="img/svg-sprite.svg#icon-mobile"></use></svg>8&nbsp;(8652)&nbsp;95&#8209;68&#8209;13</a>
+            <p class="pt-1 font-weight-normal d-none d-md-block">Студенческий офис<br>
+              <a class="text-nowrap font-weight-bold" href="tel:+78652330299"><svg class="icon"><use xlink:href="img/svg-sprite.svg#icon-mobile"></use></svg>8&nbsp;(8652)&nbsp;33‑02‑99</a><br>
+              <a class="text-nowrap font-weight-bold" href="tel:+78652330734"><svg class="icon"><use xlink:href="img/svg-sprite.svg#icon-mobile"></use></svg>8&nbsp;(8652)&nbsp;33‑07‑34</a>
+            </p>
+            <!--                <p><a href="mailto:selcom@ncfu.ru">selcom@ncfu.ru</a></p>-->
+          </div>
+
+          <div class="header__info">
+            <div class="header__info-wrapper">
+              <p><a class="link" href="http://spravka.ncfu.ru"><svg class="icon"><use xlink:href="img/svg-sprite.svg#icon-search"></use></svg><span>Справка СКФУ</span></a></p>
+              <p><a href="tel:+78002006476"><svg class="icon"><use xlink:href="img/svg-sprite.svg#icon-mobile"></use></svg>8-800-200-64-76</a></p>
+              <p class="header__tel pt-1 font-weight-normal">Горячая линия психологической службы СКФУ<br><a class="font-weight-bold" href="tel:+78002006476"><svg class="icon"><use xlink:href="img/svg-sprite.svg#icon-mobile"></use></svg>8-800-200-64-76 (доб. 3)</a></p>
+              <p class="header__tel header__tel_2 pt-1 font-weight-normal">Студенческий офис<br><a class="font-weight-bold" href="tel:+7865233029"><svg class="icon"><use xlink:href="img/svg-sprite.svg#icon-mobile"></use></svg>8&nbsp;(8652)&nbsp;33‑02‑99</a></p>
+
+              <!--                  <p><a href="mailto:info@ncfu.ru"><svg class="icon"><use xlink:href="img/svg-sprite.svg#icon-envelop"></use></svg>info@ncfu.ru</a></p>-->
+            </div>
+          </div>
+
+          <div class="header__address">
+            <p><a href="http://www.ncfu.ru/university/institutes/institut-servisa-turizma-i-dizayna-filial-skfu-v-g-pyatigorske/"><svg class="icon"><use xlink:href="img/svg-sprite.svg#icon-library"></use></svg>Филиал&nbsp;в&nbsp;г.&nbsp;Пятигорске</a></p>
+            <p><a href="http://www.ncfu.ru/university/institutes/filial-v-g-nevinnomysske/"><svg class="icon"><use xlink:href="img/svg-sprite.svg#icon-library"></use></svg>Филиал&nbsp;в&nbsp;г.&nbsp;Невинномысске</a></p>
+            <p class="header__idea"><a href="#"><svg class="icon"><use xlink:href="img/svg-sprite.svg#icon-light-bulb"></use></svg>Мой вуз – моя идея!</a></p>
+            <div class="header__cta-wrapper"><a class="header__cta" href="https://www.ncfu.ru/abitur/priemnaya-kampaniya-2022/">Приёмная кампания</a> </div>
+          </div>
+
+          <div class="header__search">
+            <div class="header__lang">
+              <a href="#">RU</a> | <a href="#">EN</a> | <a href="#">AR</a>| <a href="#">CN</a>
+            </div>
+            <div class="header__search-wrapper">
+              <form class="header__search-from">
+                <input name="q" type="search" placeholder="Поиск" aria-label="Поиск">
+                <button><svg class="icon icon--no-margin"><use xlink:href="img/svg-sprite.svg#icon-search"></use></svg></button>
+              </form>
+              <div class="social">
+                <a href="https://t.me/ncfulife">
+                  <svg class="icon"><use xlink:href="img/svg-sprite.svg#icon-telegram"></use></svg>
+                </a>
+                <a href="http://www.facebook.com/northcfu">
+                  <svg class="icon"><use xlink:href="img/svg-sprite.svg#icon-facebook2"></use></svg>
+                </a>
+                <a href="https://vk.com/ncfu_main">
+                  <svg class="icon"><use xlink:href="img/svg-sprite.svg#icon-vk"></use></svg>
+                </a>
+                <a href="https://www.instagram.com/ncfu_official/">
+                  <svg class="icon"><use xlink:href="img/svg-sprite.svg#icon-instagram"></use></svg>
+                </a>
+                <a href="http://www.youtube.com/channel/UCPW57m5f6gQGBgO7a9Gpt1w">
+                  <svg class="icon"><use xlink:href="img/svg-sprite.svg#icon-youtube"></use></svg>
+                </a>
+
+                <a href="https://ok.ru/group/57377608171624">
+                  <svg class="icon"><use xlink:href="img/svg-sprite.svg#icon-odnoklassniki"></use></svg>
+                </a>
+
+                <a href="https://twitter.com/ncfu_main">
+                  <svg class="icon"><use xlink:href="img/svg-sprite.svg#icon-tiktok"></use></svg>
+                </a>
+
+                <a href="https://www.tiktok.com/@ncfu_vuz">
+                  <svg class="icon"><use xlink:href="img/svg-sprite.svg#icon-twitter"></use></svg>
+                </a>
+
+                <a href="https://www.tiktok.com/@ncfu_vuz">
+                  <svg class="icon"><use xlink:href="img/svg-sprite.svg#icon-rutube"></use></svg>
+                </a>
+
+                <a href="https://dzen.ru/ncfu">
+                  <svg class="icon"><use xlink:href="img/svg-sprite.svg#icon-dzen"></use></svg>
+                </a>
+
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+
+<div class="menu">
+  <div class="menu__container">
+    <nav class="navbar navbar-expand-md navbar-light bg-transparent btco-hover-menu" role="navigation">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#header-menu" aria-controls="header-menu" aria-expanded="false">
+        <svg class="icon icon--no-margin"><use xlink:href="img/svg-sprite.svg#icon-menu"></use></svg>
+      </button>
+
+      <a href="/"><img class="menu__logo" src="img/logo-new-white.svg" width="39" height="30"  alt="Северо-Кавказский федеральный университет"></a>
+
+      <div class="collapse navbar-collapse" id="header-menu" aria-expanded="true" role="navigation">
+        <ul class="nav w-100 d-flex justify-content-center navbar-nav">
+
+          <li class="nav-item dropdown menu__top-link">
+            <a href="http://www.ncfu.ru/export/university/home/" class="nav-link dropdown-toggle  text-uppercase">Университет</a>
+            <ul class="dropdown-menu" data-index="index1">
+              <li class="nav-item">
+                <a href="http://www.ncfu.ru/university/novosti/" class="nav-link  ">Новости</a>
+              </li>
+              <li class="nav-item">
+                <a href="http://www.ncfu.ru/export/university/vizitnaya-kartochka-severo-kavkazskogo-federalnogo-universiteta/" class="nav-link  ">Визитная карточка</a>
+              </li>
+              <li class="nav-item">
+                <a href="http://www.ncfu.ru/export/university/sostav-rektorata-severo-kavkazskogo-federalnogo-universiteta/" class="nav-link  ">Руководство</a>
+              </li>
+              <li class="nav-item">
+                <a href="http://www.ncfu.ru/export/university/popechitelsky-sovet/" class="nav-link  ">Попечительский совет </a>
+              </li>
+              <li class="nav-item">
+                <a href="http://www.ncfu.ru/export/university/nablyudatelnyy-sovet-skfu/" class="nav-link  ">Наблюдательный совет </a>
+              </li>
+              <li class="nav-item dropdown">
+                <a href="http://www.ncfu.ru/university/uchenyy-sovet/" class="nav-link dropdown-toggle  ">Ученый
+                  совет</a>
+                <ul class="dropdown-menu">
+                  <li class="nav-item">
+                    <a href="http://www.ncfu.ru/university/uchenyy-sovet/zasedaniya-uchenogo-soveta/" class="nav-link  ">Заседания Ученого
+                      совета</a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="http://www.ncfu.ru/export/university/uchenyy-sovet/documents/" class="nav-link  ">Документы</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a href="http://www.ncfu.ru/export/university/dokumenty/" class="nav-link  ">Документы</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a href="http://www.ncfu.ru/export/university/samoobsledovanie/" class="nav-link dropdown-toggle  ">Аккредитация</a>
+                <ul class="dropdown-menu">
+                  <li class="nav-item">
+                    <a href="http://www.ncfu.ru/export/university/samoobsledovanie/gos_akkreditaciya/" class="nav-link  ">Государственная
+                      аккредитация </a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="http://www.ncfu.ru/export/university/samoobsledovanie/prof-obschest_akkreditaciya/" class="nav-link  ">Профессионально-общественная
+                      аккредитация</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a href="http://www.ncfu.ru/export/university/progr_razv/" class="nav-link  ">Программа развития
+                  университета </a>
+              </li>
+              <li class="nav-item">
+                <a href="http://www.ncfu.ru/export/university/zakupki/" class="nav-link  ">Закупки</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a href="http://www.ncfu.ru/export/university/profsouz/" class="nav-link dropdown-toggle  ">Профсоюз</a>
+                <ul class="dropdown-menu">
+                  <li class="nav-item">
+                    <a href="http://www.ncfu.ru/export/university/profsouz/pervichnaya-profsoyuznaya-organizaciya-rabotnikov-fgaou-vpo-severo-kavkazskiy-federalnyy-universitet/" class="nav-link  ">Первичная профсоюзная
+                      организация работников СКФУ</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a href="http://www.ncfu.ru/export/university/profsouz/pervichnaya-profsoyuznaya-organizaciya-studentov-i-aspirantov-fgaou-vpo-skfu/" class="nav-link dropdown-toggle  ">Первичная
+                      профсоюзная организация студентов и аспирантов СКФУ</a>
+                    <ul class="dropdown-menu">
+                      <li class="nav-item">
+                        <a href="http://www.ncfu.ru/export/university/profsouz/pervichnaya-profsoyuznaya-organizaciya-studentov-i-aspirantov-fgaou-vpo-skfu/page/" class="nav-link  ">page</a>
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a href="http://www.ncfu.ru/export/university/endaumentfond/" class="nav-link  ">Фонд управления целевым
+                  капиталом </a>
+              </li>
+              <li class="nav-item">
+                <a href="http://www.ncfu.ru/export/university/bezopasnost/" class="nav-link  ">Безопасность
+                  университета </a>
+              </li>
+              <li class="nav-item">
+                <a href="http://www.ncfu.ru/export/university/stop_terror/" class="nav-link  ">Противодействие терроризму и
+                  экстремизму </a>
+              </li>
+              <li class="nav-item">
+                <a href="http://www.ncfu.ru/export/university/antikorrupcionnaya-deyatelnost/" class="nav-link  ">Антикоррупционная
+                  деятельность</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a href="http://www.ncfu.ru/export/university/istoriya-universiteta/" class="nav-link dropdown-toggle  ">История
+                  университета</a>
+                <ul class="dropdown-menu">
+                  <li class="nav-item">
+                    <a href="http://www.ncfu.ru/export/university/istoriya-universiteta/skfu-2012-2017/" class="nav-link  "> СКФУ 2012-2017:
+                      история, цифры, события, лица </a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="http://www.ncfu.ru/export/university/istoriya-universiteta/85-letie/" class="nav-link  ">85-летие СКФУ</a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="http://www.ncfu.ru/export/university/istoriya-universiteta/zaslujennye-professora/" class="nav-link  ">Заслуженные
+                      профессора СКФУ</a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="http://www.ncfu.ru/export/university/istoriya-universiteta/pochetnye-doktora/" class="nav-link  ">Почетные доктора
+                      СКФУ</a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="http://www.ncfu.ru/export/university/istoriya-universiteta/vypuskniki-skfu/" class="nav-link  ">Выпускники СКФУ </a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="http://www.ncfu.ru/export/university/istoriya-universiteta/kniga-pamyati/" class="nav-link  ">Книга памяти</a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="http://www.ncfu.ru/export/university/istoriya-universiteta/skfu-nagrady/" class="nav-link  ">Наши награды </a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a href="http://www.ncfu.ru/university/tochka-kipeniya/" class="nav-link  ">«Точка кипения»</a>
+              </li>
+              <li class="nav-item">
+                <a href="http://www.ncfu.ru/export/university/partnery/" class="nav-link  ">Партнёры</a>
+              </li>
+              <li class="nav-item">
+                <a href="http://www.ncfu.ru/export/university/sveden/" class="nav-link  ">Сведения об образовательной
+                  организации </a>
+              </li>
+              <li class="nav-item dropdown">
+                <a href="http://www.ncfu.ru/university/media/" class="nav-link dropdown-toggle  ">Медиа</a>
+                <ul class="dropdown-menu">
+                  <li class="nav-item">
+                    <a href="http://www.ncfu.ru/university/media/skfu-tv/" class="nav-link  ">СКФУ ТВ</a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="http://www.ncfu.ru/export/university/media/gimn-skfu/" class="nav-link  ">Гимн СКФУ</a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="http://www.ncfu.ru/export/university/media/informacionnyi-studencheskii-molodejnyi-jurnal-nota-bene-obrati-vnimanie/" class="nav-link  ">Информационный
+                      студенческий молодежный журнал «Nota Bene! Обрати
+                      внимание»</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a href="http://www.ncfu.ru/export/university/rekvizity-skfu/" class="nav-link  ">Реквизиты</a>
+              </li>
+              <li class="nav-item">
+                <a href="http://www.ncfu.ru/export/university/dohod/" class="nav-link  ">Сведения о доходах, об
+                  имуществе и обязательствах имущественного характера руководителя
+                  и членов его семьи </a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown menu__top-link">
+            <a href="http://www.ncfu.ru/export/for-students/home/" class="nav-link dropdown-toggle  text-uppercase">Студенту</a>
+            <ul class="dropdown-menu">
+              <li class="nav-item">
+                <a href="http://www.ncfu.ru/for-students/zhizn/" class="nav-link  ">Новости студенческой
+                  жизни </a>
+              </li>
+              <li class="nav-item">
+                <a href="http://www.ncfu.ru/for-students/rasp" class="nav-link  ">Расписание занятий </a>
+              </li>
+              <li class="nav-item">
+                <a href="http://www.ncfu.ru/export/for-students/raspisanie-zvonkov/" class="nav-link  ">Расписание звонков </a>
+              </li>
+              <li class="nav-item">
+                <a href="http://www.ncfu.ru/for-students/stipendii" class="nav-link  ">Стипендии</a>
+              </li>
+              <li class="nav-item">
+                <a href="http://www.ncfu.ru/export/for-students/poryadok-zaseleniya/" class="nav-link  ">Общежития</a>
+              </li>
+              <li class="nav-item">
+                <a href="http://www.ncfu.ru/export/for-students/studencheskie-obedineniya/" class="nav-link  ">Студенческие объединения </a>
+              </li>
+              <li class="nav-item dropdown">
+                <a href="http://www.ncfu.ru/export/for-students/creat/" class="nav-link dropdown-toggle  ">Творчество и
+                  досуг</a>
+                <ul class="dropdown-menu">
+                  <li class="nav-item dropdown">
+                    <a href="http://www.ncfu.ru/export/for-students/creat/tvorcheskie-kollektivy-skfu/" class="nav-link dropdown-toggle  ">Творческие
+                      коллективы СКФУ </a>
+                    <ul class="dropdown-menu">
+                      <li class="nav-item">
+                        <a href="http://www.ncfu.ru/for-students/creat/tvorcheskie-kollektivy-skfu/muzeinyi-centr" class="nav-link  ">Музейный
+                          центр</a>
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a href="http://www.ncfu.ru/export/for-students/creat/tradicionnye-meropriyatiya/" class="nav-link  ">Традиционные
+                      мероприятия </a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a href="http://www.ncfu.ru/for-students/gordost/" class="nav-link  ">Гордость СКФУ</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a href="http://www.ncfu.ru/export/for-students/sport/" class="nav-link dropdown-toggle  ">Спорт</a>
+                <ul class="dropdown-menu">
+                  <li class="nav-item">
+                    <a href="http://www.ncfu.ru/for-students/sport/sport-news/" class="nav-link  ">Новости спорта</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a href="http://www.ncfu.ru/export/for-students/sport/sportivnye-sekcii/" class="nav-link dropdown-toggle  ">Спортивные
+                      секции</a>
+                    <ul class="dropdown-menu">
+                      <li class="nav-item">
+                        <a href="http://www.ncfu.ru/export/for-students/sport/sportivnye-sekcii/grafik-raboty-sportivnyh-sekcii/" class="nav-link  ">График работы
+                          спортивных секций </a>
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a href="http://www.ncfu.ru/export/for-students/sport/sportivnye-obekty-skfu/" class="nav-link  ">Спортивные
+                      объекты</a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="http://www.ncfu.ru/export/for-students/sport/sportivno-ozdorovitelnyi-kompleks" class="nav-link  ">Спортивно-оздоровительный
+                      комплекс</a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="http://www.ncfu.ru/export/for-students/sport/kubok-rektora-skfu/" class="nav-link  ">Кубок ректора
+                      СКФУ </a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="http://www.ncfu.ru/export/for-students/sport/kubok-pervokursnika-skfu/" class="nav-link  ">Кубок первокурсника
+                      СКФУ </a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a href="http://www.ncfu.ru/export/for-students/kuratoru-i-staroste-dokumenty/" class="nav-link dropdown-toggle  ">Куратору и
+                  старосте </a>
+                <ul class="dropdown-menu">
+                  <li class="nav-item">
+                    <a href="http://www.ncfu.ru/export/for-students/kuratoru-i-staroste-dokumenty/documents/" class="nav-link  ">Документы</a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="http://www.ncfu.ru/export/for-students/kuratoru-i-staroste-dokumenty/spisok-kuratorov-po-institutam/" class="nav-link  ">Список кураторов по
+                      институтам </a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="http://www.ncfu.ru/export/for-students/kuratoru-i-staroste-dokumenty/spisok-soveta-kuratorov-universiteta/" class="nav-link  ">Состав Совета
+                      кураторов университета </a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="http://www.ncfu.ru/export/for-students/kuratoru-i-staroste-dokumenty/grafiki-provedeniya-kuratorskih-chasov/" class="nav-link  ">График проведения
+                      кураторских часов </a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="http://www.ncfu.ru/export/for-students/kuratoru-i-staroste-dokumenty/grafik-posescheniya-kulturnyh-centrov-goroda/" class="nav-link  ">График посещения
+                      культурных центров города </a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="http://www.ncfu.ru/export/for-students/kuratoru-i-staroste-dokumenty/kuratoru-i-staroste-meropriyatiya/" class="nav-link  ">Мероприятия</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a href="http://www.ncfu.ru/export/for-students/programma-vybory-skfu-2012/" class="nav-link  ">Совет обучающихся </a>
+              </li>
+              <li class="nav-item">
+                <a href="http://www.ncfu.ru/export/for-students/studentu-obrazovanie/" class="nav-link  ">Образование </a>
+              </li>
+              <li class="nav-item">
+                <a href="http://www.ncfu.ru/export/for-students/eticheskiy-kodeks-studentov-skfu/" class="nav-link  ">Этический кодекс студентов
+                  СКФУ</a>
+              </li>
+              <li class="nav-item">
+                <a href="http://www.ncfu.ru/export/for-students/pamayatka_vuch/" class="nav-link  ">Воинский учет </a>
+              </li>
+              <li class="nav-item">
+                <a href="http://www.ncfu.ru/export/for-students/trudoustroistvo/" class="nav-link  ">Трудоустройство</a>
+              </li>
+              <li class="nav-item">
+                <a href="http://www.ncfu.ru/export/for-students/letniy_otdyh_studentov/" class="nav-link  ">Летний отдых студентов </a>
+              </li>
+              <li class="nav-item">
+                <a href="http://www.ncfu.ru/export/for-students/navigator-po-universitetu/" class="nav-link  ">Навигатор по
+                  университету </a>
+              </li>
+              <li class="nav-item">
+                <a href="http://www.ncfu.ru/for-students/bezopasnost-universiteta" class="nav-link  ">Безопасность
+                  университета </a>
+              </li>
+              <li class="nav-item">
+                <a href="http://www.ncfu.ru/for-students/olimpiady/" class="nav-link  ">Олимпиады</a>
+              </li>
+              <li class="nav-item">
+                <a href="http://www.ncfu.ru/for-students/studencheskii-molodejnyi-jurnal-nota-bene-obrati-vnimanie" class="nav-link  ">Студенческий молодежный
+                  журнал «Nota Bene! Обрати внимание»</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown menu__top-link">
+            <a href="http://www.ncfu.ru/export/science/home/" class="nav-link dropdown-toggle text-uppercase ">Наука</a>
+            <ul class="dropdown-menu">
+              <li class="nav-item">
+                <a href="http://www.ncfu.ru/science/news/" class="nav-link  ">Новости</a>
+              </li>
+              <li class="nav-item">
+                <a href="http://www.ncfu.ru/science/ya-uchnyi/" class="nav-link  ">Я – учёный</a>
+              </li>
+              <li class="nav-item">
+                <a href="http://www.ncfu.ru/science/Upravlenie-nauki-i-tehnologii" class="nav-link  ">Управление науки и
+                  технологий</a>
+              </li>
+              <li class="nav-item">
+                <a href="http://www.ncfu.ru/export/science/nauchnaya-infrastruktura/" class="nav-link  ">Научная инфраструктура </a>
+              </li>
+              <li class="nav-item">
+                <a href="http://www.ncfu.ru/export/science/dissertacionnye-sovety/" class="nav-link  ">Диссертационные советы </a>
+              </li>
+              <li class="nav-item">
+                <a href="http://www.ncfu.ru/export/science/doktorantura/" class="nav-link  ">Докторантура </a>
+              </li>
+              <li class="nav-item">
+                <a href="http://www.ncfu.ru/science/programma-podgotovki-doktorov-nauk/" class="nav-link  ">Программа подготовки докторов
+                  наук в СКФУ</a>
+              </li>
+              <li class="nav-item">
+                <a href="http://www.ncfu.ru/export/science/gotovnost_-diplomov-kandidatov-i-doktorov-nauk/" class="nav-link  ">Готовность дипломов
+                  кандидатов и докторов наук</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a href="http://www.ncfu.ru/export/science/nt-sovet/" class="nav-link dropdown-toggle  ">Научно-технический
+                  совет </a>
+                <ul class="dropdown-menu">
+                  <li class="nav-item">
+                    <a href="http://www.ncfu.ru/export/science/nt-sovet/sostav-nauchno-tehnicheskogo-soveta-skfu/" class="nav-link  ">Состав
+                      научно-технического совета СКФУ </a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a href="http://www.ncfu.ru/export/science/perechen-osnovnih-nachnih-napravlenii-skfu/" class="nav-link  ">Научные направления </a>
+              </li>
+              <li class="nav-item dropdown">
+                <a href="http://www.ncfu.ru/export/science/nauchnye-izdaniya/" class="nav-link dropdown-toggle  ">Научные
+                  издания </a>
+                <ul class="dropdown-menu">
+                  <li class="nav-item">
+                    <a href="http://www.ncfu.ru/export/science/nauchnye-izdaniya/nauka-innovacii-technologii/" class="nav-link  ">Научный журнал
+                      «Наука. Инновации. Технологии»</a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="http://www.ncfu.ru/export/science/nauchnye-izdaniya/nauchnyy-zhurnal-yuridicheskie-issledovaniya/" class="nav-link  ">Научный журнал
+                      «Гуманитарные и юридические исследования» </a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="http://www.ncfu.ru/export/science/nauchnye-izdaniya/nauchnyy-zhurnal-vestnik-skfu/" class="nav-link  ">Научный журнал
+                      «Вестник Северо-Кавказского федерального
+                      университета»</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a href="http://www.ncfu.ru/export/science/scientific-events/" class="nav-link  ">Научные мероприятия </a>
+              </li>
+              <li class="nav-item">
+                <a href="http://www.ncfu.ru/export/science/publ_msc_wos_scop/" class="nav-link  ">Публикационная
+                  активность </a>
+              </li>
+              <li class="nav-item">
+                <a href="http://www.ncfu.ru/export/science/sborniki_nkonf/" class="nav-link  ">Сборники материалов научных
+                  конференций </a>
+              </li>
+              <li class="nav-item dropdown">
+                <a href="http://www.ncfu.ru/export/science/realizaciya-nauchnyh-proektov/" class="nav-link dropdown-toggle  ">Реализация
+                  научных проектов </a>
+                <ul class="dropdown-menu">
+                  <li class="nav-item">
+                    <a href="http://www.ncfu.ru/export/science/realizaciya-nauchnyh-proektov/gi/" class="nav-link  ">ГИ</a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="http://www.ncfu.ru/export/science/realizaciya-nauchnyh-proektov/iehiu/" class="nav-link  ">ИЭиУ</a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="http://www.ncfu.ru/export/science/realizaciya-nauchnyh-proektov/iitt/" class="nav-link  ">ИИТТ</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a href="http://www.ncfu.ru/export/science/konkursy-granty/" class="nav-link  ">Конкурсы, гранты </a>
+              </li>
+              <li class="nav-item">
+                <a href="http://www.ncfu.ru/export/science/nauchnie-shkoly-skfu/" class="nav-link  ">Научные школы </a>
+              </li>
+              <li class="nav-item">
+                <a href="http://www.ncfu.ru/export/science/dokumenty-reglamentiruuie-nauchno-issledovatel_skuu-deyatel_nost_-v-skfu/" class="nav-link  ">Документы, регламентирующие
+                  научно-исследовательскую деятельность в СКФУ</a>
+              </li>
+              <li class="nav-item">
+                <a href="http://www.ncfu.ru/export/science/software/" class="nav-link  ">Обеспеченность программным
+                  обеспечением</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a href="http://www.ncfu.ru/export/science/nir-students/" class="nav-link dropdown-toggle  ">Научно-исследовательская
+                  работа студентов </a>
+                <ul class="dropdown-menu">
+                  <li class="nav-item">
+                    <a href="http://www.ncfu.ru/export/science/nir-students/spisok-chlenov-soveta-molodyh-uchenyh-i-specialistov/" class="nav-link  ">Совет молодых ученых
+                      и специалистов </a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="http://www.ncfu.ru/export/science/nir-students/nauchnie-kruzhki-skfu/" class="nav-link  ">Студенческие научные
+                      объединения </a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a href="http://www.ncfu.ru/export/science/elektronnye-resursy/" class="nav-link dropdown-toggle  ">Электронные
+                  образовательные ресурсы </a>
+                <ul class="dropdown-menu">
+                  <li class="nav-item">
+                    <a href="http://www.ncfu.ru/export/science/elektronnye-resursy/elektronnye-bibliotechnye-sistemy/" class="nav-link  ">Электронные
+                      библиотечные системы </a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="http://www.ncfu.ru/export/science/elektronnye-resursy/rossiyskie-setevye-resursy/" class="nav-link  ">Российские сетевые
+                      ресурсы </a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="http://www.ncfu.ru/export/science/elektronnye-resursy/zarubezhnye-setevye-resursy/" class="nav-link  ">Зарубежные сетевые
+                      ресурсы </a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="http://www.ncfu.ru/export/science/elektronnye-resursy/issledovatelyam-i-prepodavatelyam-naukometriya/" class="nav-link  ">Исследователям и
+                      преподавателям. Наукометрия </a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="http://www.ncfu.ru/science/elektronnye-resursy/antiplagiat" class="nav-link  ">Антиплагиат</a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="http://www.ncfu.ru/export/science/elektronnye-resursy/elektronnye-zhurnaly/" class="nav-link  ">Электронные
+                      журналы </a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a href="http://www.ncfu.ru/export/science/otchety-nid/" class="nav-link  ">Отчеты о
+                  научно-исследовательской деятельности </a>
+              </li>
+              <li class="nav-item">
+                <a href="http://www.ncfu.ru/export/science/patenty-i-svidetelstva/" class="nav-link  ">Патенты и свидетельства
+                  СКФУ </a>
+              </li>
+              <li class="nav-item">
+                <a href="http://www.ncfu.ru/export/science/eksportnyy-kontrol/" class="nav-link  ">Экспортный контроль </a>
+              </li>
+              <li class="nav-item">
+                <a href="http://www.ncfu.ru/export/science/gos_zadanie/" class="nav-link  ">Реализация государственного
+                  задания </a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown menu__top-link">
+            <a href="http://www.ncfu.ru/export/innovations/home/" class="nav-link dropdown-toggle text-uppercase ">Инновации</a>
+            <ul class="dropdown-menu">
+              <li class="nav-item">
+                <a href="http://www.ncfu.ru/innovations/news/" class="nav-link  ">Новости</a>
+              </li>
+              <li class="nav-item">
+                <a href="http://www.ncfu.ru/innovations/npb_innov/" class="nav-link  ">Нормативно-правовая база</a>
+              </li>
+              <li class="nav-item">
+                <a href="http://www.ncfu.ru/innovations/innovacionnaya-infrastruktura/" class="nav-link  ">Инновационная
+                  инфраструктура </a>
+              </li>
+              <li class="nav-item">
+                <a href="http://www.ncfu.ru/innovations/malye-innovacionnye-predpriyatiya/" class="nav-link  ">Малые инновационные
+                  предприятия </a>
+              </li>
+              <li class="nav-item">
+                <a href="http://www.ncfu.ru/innovations/fin_instr/" class="nav-link  ">Поддержка инновационных
+                  проектов </a>
+              </li>
+              <li class="nav-item">
+                <a href="http://www.ncfu.ru/innovations/fvd/" class="nav-link  ">Форумно-выставочная
+                  деятельность </a>
+              </li>
+              <li class="nav-item">
+                <a href="http://www.ncfu.ru/innovations/nt_skfu/" class="nav-link  ">Наукоемкие технологии </a>
+              </li>
+              <li class="nav-item">
+                <a href="http://www.ncfu.ru/innovations/programma-transformacii-skfu-v-universitetskiy-centr-stavropolskogo-kraya/" class="nav-link  ">Программа трансформации СКФУ
+                  в университетский центр Ставропольского края </a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown menu__top-link">
+            <a href="http://www.ncfu.ru/export/education/home/" class="nav-link dropdown-toggle text-uppercase ">Образование</a>
+            <ul class="dropdown-menu">
+              <li class="nav-item dropdown">
+                <a href="http://www.ncfu.ru/export/education/obrazovatelnye-programmy/" class="nav-link dropdown-toggle  ">Образовательные
+                  программы</a>
+                <ul class="dropdown-menu">
+                  <li class="nav-item">
+                    <a href="http://www.ncfu.ru/export/education/obrazovatelnye-programmy/2019-god/" class="nav-link  ">2019 год</a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="http://www.ncfu.ru/export/education/obrazovatelnye-programmy/2018-god/" class="nav-link  ">2018 год</a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="http://www.ncfu.ru/export/education/obrazovatelnye-programmy/2017-god/" class="nav-link  ">2017 год</a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="http://www.ncfu.ru/export/education/obrazovatelnye-programmy/2016-god/" class="nav-link  ">2016 год</a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="http://www.ncfu.ru/export/education/obrazovatelnye-programmy/2015/" class="nav-link  ">2015 год</a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="http://www.ncfu.ru/export/education/obrazovatelnye-programmy/2014/" class="nav-link  ">2014 год</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a href="http://www.ncfu.ru/education/podgotovka-kadrov-vysei-kvalifikacii/" class="nav-link dropdown-toggle  ">Подготовка
+                  кадров высшей квалификации</a>
+                <ul class="dropdown-menu">
+                  <li class="nav-item">
+                    <a href="http://www.ncfu.ru/education/podgotovka-kadrov-vysei-kvalifikacii/aspirantura/" class="nav-link  ">Аспирантура</a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="http://www.ncfu.ru/education/podgotovka-kadrov-vysei-kvalifikacii/ordinatura/" class="nav-link  ">Ординатура </a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="http://www.ncfu.ru/education/podgotovka-kadrov-vysei-kvalifikacii/aksterny/" class="nav-link  ">Экстерны</a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="http://www.ncfu.ru/education/podgotovka-kadrov-vysei-kvalifikacii/prikreplenie-lic-dlya-podgotovki-dissertacii/" class="nav-link  ">Прикрепление лиц для
+                      подготовки диссертации</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a href="http://www.ncfu.ru/education/dop-prof/" class="nav-link dropdown-toggle  ">Дополнительное
+                  профессиональное образование</a>
+                <ul class="dropdown-menu">
+                  <li class="nav-item">
+                    <a href="http://www.ncfu.ru/education/dop-prof/povyenie-kvalifikacii-za-schet-sredstv-zakazchikov/" class="nav-link  ">Повышение
+                      квалификации за счет средств заказчиков </a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="http://www.ncfu.ru/education/dop-prof/programmy-professionalnoy-perepodgotovki/" class="nav-link  ">Программы
+                      профессиональной переподготовки</a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="http://www.ncfu.ru/education/dop-prof/programmy-professionalnoy-podgotovki-dlya-studentov/" class="nav-link  ">Программы
+                      профессиональной подготовки для студентов </a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="http://www.ncfu.ru/education/dop-prof/programmy-izucheniya-inostrannyh-yazykov-v-severo-kavkazskom-federalnom-universitete/" class="nav-link  ">Языковые
+                      программы</a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="http://www.ncfu.ru/education/dop-prof/Kursy-podgotovki-k-sdache-OG-i-EG" class="nav-link  ">Курсы подготовки к
+                      сдаче ОГЭ и ЕГЭ</a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="http://www.ncfu.ru/education/dop-prof/kursy-povysheniya-kvalifikacii-po-programme-obespechenie-ekologicheskoy-bezopasnosti-rukovoditelyami/" class="nav-link  ">Курсы повышения
+                      квалификации по программе "Обеспечение экологической
+                      безопасности руководителями и специалистами
+                      общехозяйственных систем управления"</a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="http://www.ncfu.ru/education/dop-prof/10358-kursy-povysheniya-kvalifikacii/" class="nav-link  ">Курсы повышения
+                      квалификации по программе "Основы современной
+                      региональной культурной политики" </a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="http://www.ncfu.ru/education/dop-prof/aktualnye-voprosy-nalogovogo-zakonodatelstva/" class="nav-link  ">Актуальные вопросы
+                      налогового законодательства </a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="http://www.ncfu.ru/education/dop-prof/pov-kvalifikacii-cifrovaya-transformaciya-anergetika-buduego/" class="nav-link  ">Программа повышения
+                      квалификации «Цифровая трансформация: энергетика
+                      будущего. Концепция интернета энергии (IoE)»</a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="http://www.ncfu.ru/education/dop-prof/pov-kvalifikacii-tehnologii-anergosistem-buduego-smart-grids/" class="nav-link  ">Программа повышения
+                      квалификации «Технологии энергосистем будущего – Smart
+                      Grids»</a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="http://www.ncfu.ru/education/dop-prof/pov-kvalifikacii-metodologiya-proektirovaniya-cifrovyh-podstancii/" class="nav-link  ">Программа повышения
+                      квалификации «Методология проектирования цифровых
+                      подстанций»</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a href="http://www.ncfu.ru/education/yazykovye-programmy" class="nav-link  ">Языковые программы</a>
+              </li>
+              <li class="nav-item">
+                <a href="http://www.ncfu.ru/education/system-education" class="nav-link  ">Система управления обучением
+                  СКФУ</a>
+              </li>
+              <li class="nav-item">
+                <a href="http://www.ncfu.ru/education/software" class="nav-link  ">Обеспеченность программным
+                  обеспечением</a>
+              </li>
+              <li class="nav-item">
+                <a href="http://www.ncfu.ru/education/olimpiady/" class="nav-link  ">Олимпиады в СКФУ</a>
+              </li>
+              <li class="nav-item">
+                <a href="http://www.ncfu.ru/education/alektronnye-obrazovatel_nye-resursy" class="nav-link  ">Электронные образовательные
+                  ресурсы</a>
+              </li>
+              <li class="nav-item">
+                <a href="http://www.ncfu.ru/education/inkluzivnoe-obrazovanie-v-skfu/" class="nav-link  ">Инклюзивное образование в
+                  СКФУ</a>
+              </li>
+              <li class="nav-item">
+                <a href="http://www.ncfu.ru/education/dokumenty-reglamentiruuie-obrazovatelnuu-deyatelnost" class="nav-link  ">Документы, регламентирующие
+                  образовательную деятельность</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown menu__top-link">
+            <a href="http://www.ncfu.ru/abitur/priemnaya-kampaniya-2020/" class="nav-link dropdown-toggle  text-uppercase">Абитуриенту</a>
+            <ul class="dropdown-menu">
+              <li class="nav-item">
+                <a href="http://www.ncfu.ru/abitur/priemnaya-kampaniya-2020/" class="nav-link  ">Приемная кампания-2020</a>
+              </li>
+              <li class="nav-item">
+                <a href="http://www.ncfu.ru/abitur/pr-kom" class="nav-link  ">Приемная комиссия</a>
+              </li>
+              <li class="nav-item">
+                <a href="http://www.ncfu.ru/abitur/ecampus" class="nav-link  ">Информационный стенд приемной
+                  комиссии</a>
+              </li>
+              <li class="nav-item">
+                <a href="http://www.ncfu.ru/abitur/personal_naya-stranica-abiturienta" class="nav-link  ">Персональная страница
+                  абитуриента</a>
+              </li>
+              <li class="nav-item">
+                <a href="http://www.ncfu.ru/abitur/inostrannym-abiturientam" class="nav-link  ">Иностранным абитуриентам </a>
+              </li>
+              <li class="nav-item">
+                <a href="http://www.ncfu.ru/abitur/novosti/" class="nav-link  ">Новости</a>
+              </li>
+              <li class="nav-item">
+                <a href="http://www.ncfu.ru/export/abitur/dod/" class="nav-link  ">Дни открытых дверей в
+                  СКФУ </a>
+              </li>
+              <li class="nav-item dropdown">
+                <a href="http://www.ncfu.ru/export/abitur/podg-k/" class="nav-link dropdown-toggle  ">Подготовительные
+                  курсы </a>
+                <ul class="dropdown-menu">
+                  <li class="nav-item">
+                    <a href="http://www.ncfu.ru/export/abitur/podg-k/podgotovka-koshlnikov-k-uchastiu-v-olimpiadah/" class="nav-link  ">Подготовка школьников
+                      к участию в олимпиадах</a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="http://www.ncfu.ru/export/abitur/podg-k/podgotovitelnye-kursy/" class="nav-link  ">Курсы подготовки к
+                      сдаче ОГЭ и ЕГЭ</a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="http://www.ncfu.ru/export/abitur/podg-k/kursy_tvorch_prof_napravl/" class="nav-link  ">Курсы для прохождения
+                      испытаний творческой и профессиональной
+                      направленности</a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="http://www.ncfu.ru/export/abitur/podg-k/organizaciya-kursov-professionalnogo-masterstva/" class="nav-link  ">Курсы
+                      профессионального мастерства</a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="http://www.ncfu.ru/export/abitur/podg-k/podgotovitelnye-kursy-kafedry-dizayna/" class="nav-link  ">Подготовительные
+                      курсы кафедры дизайна</a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="http://www.ncfu.ru/export/abitur/podg-k/obscheobrazovatelnye-programmy-po-fizike/" class="nav-link  ">Общеобразовательные
+                      программы по физике</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a href="http://www.ncfu.ru/export/abitur/specializirovannye-shkoly/" class="nav-link dropdown-toggle  ">Специализированные
+                  школы</a>
+                <ul class="dropdown-menu">
+                  <li class="nav-item">
+                    <a href="http://www.ncfu.ru/export/abitur/specializirovannye-shkoly/unyi-pravoved/" class="nav-link  ">Юный правовед</a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="http://www.ncfu.ru/export/abitur/specializirovannye-shkoly/shkola-gramotnogo-potrebitelya/" class="nav-link  ">Школа грамотного
+                      потребителя</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a href="http://www.ncfu.ru/export/abitur/letnie-osennie-zimnie-shkoly/" class="nav-link  ">Летние, осенние, зимние
+                  школы</a>
+              </li>
+              <li class="nav-item">
+                <a href="http://www.ncfu.ru/export/abitur/ekskursii-vstrechi-s-rabotodatelyami/" class="nav-link  ">Экскурсии, встречи с
+                  работодателями</a>
+              </li>
+              <li class="nav-item">
+                <a href="http://www.ncfu.ru/export/abitur/grafik-vyezdnyh-meropriyatiy/" class="nav-link  ">График выездных
+                  мероприятий</a>
+              </li>
+              <li class="nav-item">
+                <a href="http://www.ncfu.ru/export/abitur/elektivnye-kursy/" class="nav-link  ">Услуги по чтению элективные
+                  курсов, вебинаров, консультаций для школьников</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a href="http://www.ncfu.ru/export/abitur/olymp-school/" class="nav-link dropdown-toggle  ">Олимпиады для
+                  школьников</a>
+                <ul class="dropdown-menu">
+                  <li class="nav-item">
+                    <a href="http://www.ncfu.ru/abitur/olymp-school/olimp_for_school/" class="nav-link  ">Новости</a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="http://www.ncfu.ru/abitur/olymp-school/grafik_olymp_school/" class="nav-link  ">График проведения
+                      олимпиад школьников</a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="http://www.ncfu.ru/export/abitur/olymp-school/rossiya-v-alektronnom-mire/" class="nav-link  ">Олимпиада школьников
+                      «Россия в электронном мире»</a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="http://www.ncfu.ru/abitur/olymp-school/podgotovka-shkolnikov-k-uchastiyu-v-olimpiada/" class="nav-link  ">Занятия по подготовке
+                      школьников к участию в олимпиадах различного уровня</a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="http://www.ncfu.ru/abitur/olymp-school/sroki-provedeniya-regionalnogo-etapa-vserossiyskoy-olimpiady-shkolnikov-po-obscheobrazovatelnym-pred/" class="nav-link  ">Сроки проведения
+                      регионального этапа всероссийской олимпиады
+                      школьников</a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="http://www.ncfu.ru/abitur/olymp-school/olymp-portal" class="nav-link  ">Портал олимпиад </a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a href="http://www.ncfu.ru/abitur/proforientacionnyi-navigator-dlya-detei-s-ovz" class="nav-link  ">Профориентационный навигатор
+                  для детей с ОВЗ</a>
+              </li>
+              <li class="nav-item">
+                <a href="http://www.ncfu.ru/export/abitur/proftestirovanie/" class="nav-link  ">Профтестирование</a>
+              </li>
+              <li class="nav-item">
+                <a href="http://www.ncfu.ru/export/abitur/budu-studentom/" class="nav-link  ">Образовательное реалити-шоу
+                  «Буду студентом!» </a>
+              </li>
+              <li class="nav-item">
+                <a href="http://www.ncfu.ru/export/abitur/arhiv/" class="nav-link  ">Архив</a>
+              </li>
+              <li class="nav-item">
+                <a href="http://www.ncfu.ru/abitur/stoimost-obucheniya" class="nav-link  ">Стоимость обучения</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown menu__top-link">
+            <a href="http://www.ncfu.ru/export/for-employee/home/" class="nav-link dropdown-toggle  text-uppercase">Сотруднику</a>
+            <ul class="dropdown-menu">
+              <li class="nav-item">
+                <a href="http://www.ncfu.ru/for-employee/list-of-employees/" class="nav-link  ">Личные страницы
+                  сотрудников</a>
+              </li>
+              <li class="nav-item">
+                <a href="http://www.ncfu.ru/for-employee/Podrazdeleniya" class="nav-link  ">Подразделения</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a href="http://www.ncfu.ru/for-employee/ohrana-truda_skfu/" class="nav-link dropdown-toggle  ">Охрана
+                  труда </a>
+                <ul class="dropdown-menu">
+                  <li class="nav-item">
+                    <a href="http://www.ncfu.ru/for-employee/ohrana-truda_skfu/instrukcii-po-obucheniyu/" class="nav-link  ">Инструкции по охране
+                      труда </a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="http://www.ncfu.ru/for-employee/ohrana-truda_skfu/obuchenie-po-ohrane-truda/" class="nav-link  ">Обучение по охране
+                      труда</a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="http://www.ncfu.ru/for-employee/ohrana-truda_skfu/svodnye-vedomosti-rezultatov-provedeniya-specialnoy-ocenki-usloviy-truda/" class="nav-link  ">Сводные ведомости
+                      результатов проведения специальной оценки условий
+                      труда</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a href="http://www.ncfu.ru/for-employee/polojenie-ob-oplate-truda" class="nav-link  ">Положение об оплате труда</a>
+              </li>
+              <li class="nav-item">
+                <a href="http://www.ncfu.ru/for-employee/kol-dog" class="nav-link  ">Коллективный договор СКФУ</a>
+              </li>
+              <li class="nav-item">
+                <a href="http://www.ncfu.ru/for-employee/forma-spiska-trudov/" class="nav-link  ">Форма списка трудов </a>
+              </li>
+              <li class="nav-item">
+                <a href="http://www.ncfu.ru/for-employee/acts" class="nav-link  ">Локальные акты, регулирующие
+                  трудовые и гражданско-правовые отношения </a>
+              </li>
+              <li class="nav-item dropdown">
+                <a href="http://www.ncfu.ru/for-employee/zameshchenie-dolzhnostej/" class="nav-link dropdown-toggle  ">Замещение
+                  должностей </a>
+                <ul class="dropdown-menu">
+                  <li class="nav-item">
+                    <a href="http://www.ncfu.ru/for-employee/zameshchenie-dolzhnostej/obyavleniya-o-konkursah/" class="nav-link  ">Объявления о
+                      конкурсах на замещение должностей</a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="http://www.ncfu.ru/for-employee/zameshchenie-dolzhnostej/rezultaty-konkursa/" class="nav-link  ">Результаты конкурса
+                      на замещение должностей </a>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown menu__top-link">
+            <a href="http://www.ncfu.ru/export/international-activity/home/" class="nav-link dropdown-toggle text-uppercase ">Международная
+              деятельность</a>
+            <ul class="dropdown-menu">
+              <li class="nav-item">
+                <a href="http://www.ncfu.ru/international-activity/international-news/" class="nav-link  ">Новости</a>
+              </li>
+              <li class="nav-item">
+                <a href="http://www.ncfu.ru/international-activity/upravlenie-mejdunarodnogo-sotrudnichestva" class="nav-link  ">Управление международного
+                  сотрудничества</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a href="http://www.ncfu.ru/export/international-activity/inostrannym-studentam/" class="nav-link dropdown-toggle  ">Иностранным
+                  студентам </a>
+                <ul class="dropdown-menu">
+                  <li class="nav-item">
+                    <a href="http://www.ncfu.ru/export/international-activity/inostrannym-studentam/postuplenie-v-skfu-inostrannyh-grajdan/" class="nav-link  ">Поступление в СКФУ
+                      иностранных граждан</a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="http://www.ncfu.ru/export/international-activity/inostrannym-studentam/v-pomo_-inostrannomu-studentu/" class="nav-link  ">В помощь иностранному
+                      студенту</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a href="http://www.ncfu.ru/international-activity/mezhdunarodnye-partnery/" class="nav-link  ">Международные партнеры </a>
+              </li>
+              <li class="nav-item dropdown">
+                <a href="http://www.ncfu.ru/international-activity/acc/" class="nav-link dropdown-toggle  ">Академическая
+                  мобильность</a>
+                <ul class="dropdown-menu">
+                  <li class="nav-item">
+                    <a href="http://www.ncfu.ru/international-activity/acc/2018/" class="nav-link  ">Академическая
+                      мобильность-2018</a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="http://www.ncfu.ru/international-activity/acc/akademicheskaya-mobilnost-cifry-i-fakty/" class="nav-link  "> Цифры и факты </a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="http://www.ncfu.ru/international-activity/acc/story/" class="nav-link  ">Истории студентов и
+                      преподавателей </a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="http://www.ncfu.ru/international-activity/acc/inostrannye-prepodavateli-i-eksperty-v-skfu/" class="nav-link  ">Иностранные
+                      преподаватели и эксперты в СКФУ</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a href="http://www.ncfu.ru/international-activity/stipendii-konkursy-granty/" class="nav-link  ">Стипендии, конкурсы,
+                  гранты</a>
+              </li>
+              <li class="nav-item">
+                <a href="http://www.ncfu.ru/international-activity/inostrannye-prepodavateli/" class="nav-link  ">Иностранные преподаватели</a>
+              </li>
+              <li class="nav-item">
+                <a href="http://www.ncfu.ru/international-activity/uchastie-skfu-v-mezhdunarodnyh-programmah-i-proektah/" class="nav-link  ">Участие в международных
+                  проектах</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+
+    </nav>
+  </div>
+</div>
+
+<div class="slider-b wow fadeIn" data-wow-duration="1s">
+
+  <div id="topSlider" class="carousel slide" data-ride="carousel">
+
+    <div class="carousel-inner" role="listbox">
+      <a href="/asd.pdf" class="carousel-item active">
+        <img width="1920" height="700" class="w-100 h-auto" src="img/slide1.jpg">
+      </a>
+
+      <a href="/" class="carousel-item">
+        <img width="1920" height="700"  class="w-100 h-auto" src="img/slide2.jpg">
+      </a>
+
+      <a href="/" class="carousel-item" >
+        <img width="1920" height="700" class="w-100 h-auto" src="img/slide3.jpg">
+      </a>
+    </div>
+
+    <a class="carousel-control-prev" href="#topSlider" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    </a>
+    <a class="carousel-control-next" href="#topSlider" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    </a>
+  </div>
+
+</div>
+
+
+<main>
+
+  <section class="features-icon2">
+    <div class="site-section pt-0 pb-0">
+      <div class="features-icon2__row">
+        <div class="features-icon2__block  wow fadeInUp" data-wow-duration="0.8s" data-wow-offset="200">
+          <a href="#" class="features-icon2__link">
+            <img class="features-icon2__image" width="100" height="100" src="img/f1.png">
+            <span class="features-icon2__label">Сайт для школьников и их родителей</span>
+          </a>
+        </div>
+
+        <div class="features-icon2__block wow fadeInUp" data-wow-delay="0.2s" data-wow-duration="0.8s"
+             data-wow-offset="200" >
+          <a href="#" class="features-icon2__link">
+            <img class="features-icon2__image" width="100" height="100" src="img/f2.png">
+            <span class="features-icon2__label">Дополнительное образование и повышение квалификации в СКФУ</span>
+          </a>
+        </div>
+
+        <div class="features-icon2__block wow fadeInUp" data-wow-delay="0.4s" data-wow-duration="0.8s"
+             data-wow-offset="200">
+          <a href="#" class="features-icon2__link">
+            <img class="features-icon2__image" width="100" height="100" src="img/f3.png">
+            <span class="features-icon2__label">Специализированный учебный научный центр</span>
+          </a>
+        </div>
+
+        <div class="features-icon2__block wow fadeInUp" data-wow-delay="0.6s" data-wow-duration="0.8s"
+             data-wow-offset="200">
+          <a href="#" class="features-icon2__link">
+            <img class="features-icon2__image" width="100" height="100" src="img/f4.png">
+            <span class="features-icon2__label">Консорциум вузов Северного Кавказа</span>
+          </a>
+        </div>
+
+        <div class="features-icon2__block wow fadeInUp" data-wow-delay="0.8s" data-wow-duration="0.8s"
+             data-wow-offset="200">
+          <a href="#" class="features-icon2__link">
+            <img class="features-icon2__image" width="100" height="100" src="img/f5.png">
+            <span class="features-icon2__label">Меры предупреждения распространения коронавируса</span>
+          </a>
+        </div>
+
+        <div class="features-icon2__block wow fadeInUp">
+          <a href="#" class="features-icon2__link">
+            <img class="features-icon2__image" width="100" height="100" src="img/f6.png">
+            <span class="features-icon2__label">еКампус</span>
+          </a>
+        </div>
+
+        <div class="features-icon2__block wow fadeInUp" data-wow-delay="0.2s">
+          <a href="#" class="features-icon2__link">
+            <img class="features-icon2__image" width="100" height="100" src="img/f7.png">
+            <span class="features-icon2__label">Интерактивная карта корпусов</span>
+          </a>
+        </div>
+
+        <div class="features-icon2__block wow fadeInUp" data-wow-delay="0.4s">
+          <a href="#" class="features-icon2__link">
+            <img class="features-icon2__image" width="100" height="100" src="img/f8.png">
+            <span class="features-icon2__label">Студенческий офис</span>
+          </a>
+        </div>
+
+        <div class="features-icon2__block wow fadeInUp" data-wow-delay="0.6s">
+          <a href="#" class="features-icon2__link">
+            <img class="features-icon2__image" width="100" height="100" src="img/f9.png">
+            <span class="features-icon2__label">Часто задаваемые вопросы</span>
+          </a>
+        </div>
+
+        <div class="features-icon2__block wow fadeInUp" data-wow-delay="0.8s">
+          <a href="#" class="features-icon2__link">
+            <img class="features-icon2__image" width="100" height="100" src="img/f10.png">
+            <span class="features-icon2__label">Военный учебный центр</span>
+          </a>
+        </div>
+
+
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="heading23 mb-4">
+      <div class="container site-section">
+        <div class="heading23__inner">
+          <h2 class="heading23__title">Новости</h2>
+          <a class="heading23__link" href="notice.html">Все новости</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="site-section pt-3 pb-3">
+      <div class="news">
+        <a class="news__item wow fadeIn" data-wow-offset="200" href="#" >
+          <div class="news__image-wrapper">
+            <img loading="lazy" class="news__image" width="311" height="208" src="img/n-news1.jpg" alt="Объявлен открытый конкурс на создание лучшего логотипа СКФУ" >
+          </div>
+
+          <h2 class="news__title">Ученые СКФУ предложили более эффективную технологию для микроволновых устройств</h2>
+          <p class="news-text">В Северо-Кавказском федеральном университете предложили способ улучшить работу СВЧ-устройств за счет нового композиционного материала. По словам ученых, это возможно в результате проведенных фундаментальных исследований взаимодействия сверхвысокочастотного излучения и магнитодиэлектрических эмульсий.</p>
+          <p class="news__date">19 января 2023 г.</p>
+        </a>
+
+        <a class="news__item wow fadeIn" data-wow-offset="200" href="#" >
+          <div class="news__image-wrapper">
+            <img loading="lazy" class="news__image" width="311" height="208" src="img/n-news2.jpg" alt="Объявлен открытый конкурс на создание лучшего логотипа СКФУ" >
+          </div>
+
+          <h2 class="news__title">СКФУ обустраивает памятник природы краевого значения «Кольцо-гора»</h2>
+          <p class="news-text">Сотрудники Северо-Кавказского федерального университета успешно завершили выполнение государственного контракта по заказу Министерства природных ресурсов и охраны окружающей среды Ставропольского края.</p>
+          <p class="news__date">19 января 2023 г.</p>
+        </a>
+
+        <a class="news__item wow fadeIn" data-wow-offset="200" href="#" >
+          <div class="news__image-wrapper">
+            <img loading="lazy" class="news__image" width="311" height="208" src="img/n-news3.jpg" alt="Объявлен открытый конкурс на создание лучшего логотипа СКФУ" >
+          </div>
+
+          <h2 class="news__title">Профессор СКФУ – рецензент журнала RSC Advances</h2>
+          <p class="news-text">Декан Химико-фармацевтического факультета Северо-Кавказского федерального университета, заведующий кафедрой органической и аналитической химии Александр Аксенов стал членом экспертной группы RSC Advances.</p>
+          <p class="news__date">19 января 2023 г.</p>
+        </a>
+
+        <a class="news__item wow fadeIn" data-wow-offset="200" href="#" >
+          <div class="news__image-wrapper">
+            <img loading="lazy" class="news__image" width="311" height="208" src="img/n-news4.jpg" alt="Объявлен открытый конкурс на создание лучшего логотипа СКФУ" >
+          </div>
+
+          <h2 class="news__title">Студентам СКФУ провели мастер-класс по актерскому мастерству </h2>
+          <p class="news-text">В Северо-Кавказском федеральном университете прошел мастер-класс от артиста Ставропольского академического театра драмы Георгия Серебрянского. Его посетили участники театральной студии «МЫ» СКФУ.</p>
+          <p class="news__date">19 января 2023 г.</p>
+        </a>
+
+        <a class="news__item wow fadeIn" data-wow-offset="200" href="#" >
+          <div class="news__image-wrapper">
+            <img loading="lazy" class="news__image" width="311" height="208" src="img/n-news5.jpg" alt="Объявлен открытый конкурс на создание лучшего логотипа СКФУ" >
+          </div>
+
+          <h2 class="news__title">Своих героев нашли в ВУЦ СКФУ</h2>
+          <p class="news-text">Творческий коллектив Северо-Кавказского федерального университета стал победителем конкурса документальных фильмов «Герои среди нас». Свою работу студенты снимали о преподавателях Военного учебного центра СКФУ.</p>
+          <p class="news__date">19 января 2023 г.</p>
+        </a>
+
+        <a class="news__item wow fadeIn" data-wow-offset="200" href="#" >
+          <div class="news__image-wrapper">
+            <img loading="lazy" class="news__image" width="311" height="208" src="img/n-news6.jpg" alt="Объявлен открытый конкурс на создание лучшего логотипа СКФУ" >
+          </div>
+
+          <h2 class="news__title">В России продолжается реализация программы «Пушкинская карта»</h2>
+          <p class="news-text">Продолжается реализация программы «Пушкинская карта». По ней студенты могут потратить 5 тысяч рублей на посещение учреждений культуры. Участниками программы могут стать молодые люди от 14 до 22 лет.</p>
+          <p class="news__date">19 января 2023 г.</p>
+        </a>
+
+        <a class="news__item wow fadeIn" data-wow-offset="200" href="#" >
+          <div class="news__image-wrapper">
+            <img loading="lazy" class="news__image" width="311" height="208" src="img/n-news7.jpg" alt="Объявлен открытый конкурс на создание лучшего логотипа СКФУ" >
+          </div>
+
+          <h2 class="news__title">Представители СКФУ помогут в развитии нового Центра гуманитарной помощи «Преображение»</h2>
+          <p class="news-text">Студентки Северо-Кавказского федерального университета кафедры рекламы и связей с общественностью посетили открытие нового Центра гуманитарной помощи «Преображение».</p>
+          <p class="news__date">19 января 2023 г.</p>
+        </a>
+
+        <a class="news__item wow fadeIn" data-wow-offset="200" href="#" >
+          <div class="news__image-wrapper">
+            <img loading="lazy" class="news__image" width="311" height="208" src="img/n-news8.jpg" alt="Объявлен открытый конкурс на создание лучшего логотипа СКФУ" >
+          </div>
+
+          <h2 class="news__title">Будущих докторов наук готовят в СУНЦ СКФУ</h2>
+          <p class="news-text">Специализированный учебный научный центр Северо-Кавказского федерального университета вошел в топ лучших образовательных организаций по подготовке будущих математиков.</p>
+          <p class="news__date">19 января 2023 г.</p>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <section class="unity wow fadeIn" data-wow-offset="200">
+
+    <div class="container site-section unity__wrapper">
+      <div class="unity__inner">
+        <div class="unity__col">
+          <h2 class="unity__title">Анонсы</h2>
+          <div class="swiper unity__slider js-ann-slider">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <a class="card-notice mb-3" href="#">
+            <div class="card-notice__date-container">
+              <p class="card-notice__day">16</p>
+              <p class="card-notice__month">января</p>
+            </div>
+            <p class="card-notice__text">Прием зарубежными странами на стажировку и обучение в 2023/2024 учебном году российских студентов, аспирантов, научно-педагогических работников</p>
+          </a>
+              </div>
+
+              <div class="swiper-slide">
+                <a class="card-notice mb-3" href="#">
+            <div class="card-notice__date-container">
+              <p class="card-notice__day">20</p>
+              <p class="card-notice__month">января</p>
+            </div>
+            <p class="card-notice__text">Торжественный митинг в честь 80-летней годовщины освобождения Ставрополя</p>
+          </a>
+              </div>
+
+              <div class="swiper-slide">
+                <a class="card-notice mb-3" href="#">
+            <div class="card-notice__date-container">
+              <p class="card-notice__day">27</p>
+              <p class="card-notice__month">января</p>
+            </div>
+            <p class="card-notice__text">«Гостиная СКФУ» – образовательные лекции для студентов</p>
+          </a>
+              </div>
+
+              <div class="swiper-slide">
+                <a class="card-notice mb-3" href="#">
+            <div class="card-notice__date-container">
+              <p class="card-notice__day">31</p>
+              <p class="card-notice__month">января</p>
+            </div>
+            <p class="card-notice__text">VIII международная олимпиада «Траектория будущего»</p>
+          </a>
+              </div>
+
+              <div class="swiper-slide">
+                <a class="card-notice mb-3" href="#">
+                  <div class="card-notice__date-container">
+                    <p class="card-notice__day">5</p>
+                    <p class="card-notice__month">сентябрь</p>
+                  </div>
+                  <p class="card-notice__text">«Рождество с акцентом» для студентов СКФУ</p>
+                </a>
+              </div>
+
+              <div class="swiper-slide">
+                <a class="card-notice mb-3" href="#">
+                  <div class="card-notice__date-container">
+                    <p class="card-notice__day">6</p>
+                    <p class="card-notice__month">сентябрь</p>
+                  </div>
+                  <p class="card-notice__text">«Рождество с акцентом» для студентов СКФУ</p>
+                </a>
+              </div>
+
+              <div class="swiper-slide">
+                <a class="card-notice mb-3" href="#">
+                  <div class="card-notice__date-container">
+                    <p class="card-notice__day">7</p>
+                    <p class="card-notice__month">сентябрь</p>
+                  </div>
+                  <p class="card-notice__text">«Рождество с акцентом» для студентов СКФУ</p>
+                </a>
+              </div>
+
+              <div class="swiper-slide">
+                <a class="card-notice mb-3" href="#">
+                  <div class="card-notice__date-container">
+                    <p class="card-notice__day">8</p>
+                    <p class="card-notice__month">сентябрь</p>
+                  </div>
+                  <p class="card-notice__text">«Рождество с акцентом» для студентов СКФУ</p>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="unity__col-footer">
+            <a class="unity__link" href="#">Все анонсы</a>
+          </div>
+
+          <div class="swiper-button-next unity__slider-btn unity__slider-btn_next js-ann-slider-next"></div>
+          <div class="swiper-button-prev unity__slider-btn unity__slider-btn_prev js-ann-slider-prev"></div>
+
+        </div>
+
+        <div class="unity__col unity__col_white">
+          <h2 class="unity__title">Конкурсы</h2>
+
+          <div class="swiper unity__slider js-konkurs-slider">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <a class="card-notice mb-3" href="#">
+                  <div class="card-notice__date-container">
+                    <p class="card-notice__month-konkurs"><span class="card-notice__day-konkurs">1</span>сентября</p>
+                    <p class="card-notice__month-konkurs"><span class="card-notice__day-konkurs">10</span>сентября</p>
+                  </div>
+                  <p class="card-notice__text">III Международный конкурс молодых ученых в сфере интеллектуальной собственности «Интеллект»</p>
+                </a>
+              </div>
+              <div class="swiper-slide">
+                <a class="card-notice mb-3" href="#">
+                  <div class="card-notice__date-container">
+                    <p class="card-notice__month-konkurs"><span class="card-notice__day-konkurs">15</span>февраля</p>
+                    <p class="card-notice__month-konkurs"><span class="card-notice__day-konkurs">20</span>февраля</p>
+                  </div>
+                  <p class="card-notice__text">Конкурс работ на соискание премий Правительства Российской Федерации 2023</p>
+                </a>
+              </div>
+              <div class="swiper-slide">
+                <a class="card-notice mb-3" href="#">
+                  <div class="card-notice__date-container">
+                    <p class="card-notice__month-konkurs"><span class="card-notice__day-konkurs">10</span>октября</p>
+                    <p class="card-notice__month-konkurs"><span class="card-notice__day-konkurs">20</span>октября</p>
+                  </div>
+                  <p class="card-notice__text">Всероссийский конкурс «Учитель года – 2023»</p>
+                </a>
+              </div>
+              <div class="swiper-slide">
+                <a class="card-notice mb-3" href="#">
+                  <div class="card-notice__date-container">
+                    <p class="card-notice__month-konkurs"><span class="card-notice__day-konkurs">1</span>марта</p>
+                    <p class="card-notice__month-konkurs"><span class="card-notice__day-konkurs">31</span>декабря</p>
+                  </div>
+                  <p class="card-notice__text">Конкурс на лучший антикоррупционный плакат</p>
+                </a>
+              </div>
+              <div class="swiper-slide">
+                <a class="card-notice mb-3" href="#">
+                  <div class="card-notice__date-container">
+                    <p class="card-notice__month-konkurs"><span class="card-notice__day-konkurs">1</span>сентябрь</p>
+                    <p class="card-notice__month-konkurs"><span class="card-notice__day-konkurs">10</span>сентябрь</p>
+                  </div>
+                  <p class="card-notice__text">«Рождество с акцентом» для студентов СКФУ</p>
+                </a>
+              </div>
+              <div class="swiper-slide">
+                <a class="card-notice mb-3" href="#">
+                  <div class="card-notice__date-container">
+                    <p class="card-notice__month-konkurs"><span class="card-notice__day-konkurs">1</span>сентябрь</p>
+                    <p class="card-notice__month-konkurs"><span class="card-notice__day-konkurs">10</span>сентябрь</p>
+                  </div>
+                  <p class="card-notice__text">«Рождество с акцентом» для студентов СКФУ</p>
+                </a>
+              </div>
+              <div class="swiper-slide">
+                <a class="card-notice mb-3" href="#">
+                  <div class="card-notice__date-container">
+                    <p class="card-notice__month-konkurs"><span class="card-notice__day-konkurs">1</span>сентябрь</p>
+                    <p class="card-notice__month-konkurs"><span class="card-notice__day-konkurs">10</span>сентябрь</p>
+                  </div>
+                  <p class="card-notice__text">«Рождество с акцентом» для студентов СКФУ</p>
+                </a>
+              </div>
+              <div class="swiper-slide">
+                <a class="card-notice mb-3" href="#">
+                  <div class="card-notice__date-container">
+                    <p class="card-notice__month-konkurs"><span class="card-notice__day-konkurs">1</span>сентябрь</p>
+                    <p class="card-notice__month-konkurs"><span class="card-notice__day-konkurs">10</span>сентябрь</p>
+                  </div>
+                  <p class="card-notice__text">«Рождество с акцентом» для студентов СКФУ</p>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="unity__col-footer">
+            <a class="unity__link unity__link_dark" href="#">Все конкурсы</a>
+          </div>
+
+          <div class="swiper-button-next unity__slider-btn unity__slider-btn_next js-konkurs-slider-next"></div>
+          <div class="swiper-button-prev unity__slider-btn unity__slider-btn_prev js-konkurs-slider-prev"></div>
+        </div>
+
+        <div class="unity__col">
+          <h2 class="unity__title">Объявления</h2>
+
+          <div class="swiper unity__slider js-ob-slider">
+            <div class="swiper-wrapper unity__grid mb-4">
+              <div class="swiper-slide">
+                <a class="card-sticker" href="#">
+                  <p class="card-sticker__text">
+                    <b class="card-sticker__title">Противодействие незаконному обороту наркотиков</b>
+                    В целях повышения эффективности деятельности по профилактике наркомании и противодействию незаконному обороту наркотиков аппаратом антинаркотической комиссии в Ставропольском крае организована работа телеграм-канала.
+                  </p>
+                </a>
+              </div>
+
+              <div class="swiper-slide">
+                <a class="card-sticker" href="#">
+                  <p class="card-sticker__text">
+                    <b class="card-sticker__title">Рекомендации по мерам предупреждения распространения новой коронавирусной инфекции</b>
+                    Департамент координации деятельности образовательных организаций Минобрнауки России сообщает о необходимости доведения до обучающихся и сотрудников об обязательности соблюдения мер по предупреждению завоза и распространения новой коронавирусной инфекции в соответствии с приложением.
+                  </p>
+                </a>
+              </div>
+
+              <div class="swiper-slide">
+                <a class="card-sticker" href="#">
+                  <p class="card-sticker__text">
+                    <b class="card-sticker__title">Противодействие незаконному обороту наркотиков</b>
+                    В целях повышения эффективности деятельности по профилактике наркомании и противодействию незаконному обороту наркотиков аппаратом антинаркотической комиссии в Ставропольском крае организована работа телеграм-канала.
+                  </p>
+                </a>
+              </div>
+
+              <div class="swiper-slide">
+                <a class="card-sticker" href="#">
+                  <p class="card-sticker__text">
+                    <b class="card-sticker__title">Рекомендации по мерам предупреждения распространения новой коронавирусной инфекции</b>
+                    Департамент координации деятельности образовательных организаций Минобрнауки России сообщает о необходимости доведения до обучающихся и сотрудников об обязательности соблюдения мер по предупреждению завоза и распространения новой коронавирусной инфекции в соответствии с приложением.
+                  </p>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="unity__col-footer">
+            <a class="unity__link" href="#">Все объявления</a>
+          </div>
+
+          <div class="swiper-button-next unity__slider-btn unity__slider-btn_next only-mobile js-ob-slider-next"></div>
+          <div class="swiper-button-prev unity__slider-btn unity__slider-btn_prev only-mobile js-ob-slider-prev"></div>
+
+        </div>
+
+
+      </div>
+    </div>
+
+  </section>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+
+
+      const swiperNotice = new Swiper(".js-ann-slider", {
+        slidesPerView: 1,
+        spaceBetween: 10,
+        loop: false,
+        autoHeight: true,
+        direction: 'horizontal',
+        breakpoints: {
+          768: {
+            slidesPerView: 2,
+            direction: 'vertical',
+          }
+        },
+        navigation: {
+          nextEl: ".js-ann-slider-next",
+          prevEl: ".js-ann-slider-prev",
+        }
+      });
+
+      const swiperKonkurs = new Swiper(".js-konkurs-slider", {
+        slidesPerView: 1,
+        spaceBetween: 10,
+        loop: false,
+        autoHeight: true,
+        direction: 'horizontal',
+        breakpoints: {
+          768: {
+            slidesPerView: 2,
+            direction: 'vertical',
+          }
+        },
+        navigation: {
+          nextEl: ".js-konkurs-slider-next",
+          prevEl: ".js-konkurs-slider-prev",
+        }
+      });
+
+      let swiperOb;
+      const swiperInit = function () {
+        swiperOb = new Swiper(".js-ob-slider", {
+          slidesPerView: 1,
+          spaceBetween: 10,
+          loop: false,
+          autoHeight: true,
+          direction: 'horizontal',
+          breakpoints: {
+            768: {
+              slidesPerView: 2,
+              direction: 'vertical',
+            }
+          },
+          navigation: {
+            nextEl: ".js-ob-slider-next",
+            prevEl: ".js-ob-slider-prev",
+          }
+        });
+      };
+
+      if (window.innerWidth < 1080) {
+        swiperInit();
+      }
+
+      window.addEventListener('resize', function() {
+        if (this.innerWidth < 1080 && swiperOb === undefined) {
+          swiperInit();
+        }
+
+        if (this.innerWidth > 1080 && swiperOb !== undefined) {
+          swiperOb.destroy(true, true);
+          swiperOb = undefined;
+        }
+      });
+
+    });
+
+  </script>
+
+
+  <section class="fact mb-1 wow2 fadeIn" data-wow-duration="1s" data-wow-offset="200">
+
+    <div class="fact__inner">
+      <div class="container fact__container">
+
+      <div class="fact__row">
+
+        <div class="fact__item-container">
+          <div class="change2">
+            <div class="change2__inner js-change-f1">
+
+              <div class="change2__item">
+                <div class="fact-item">
+                  <div class="fact-item__image-container">
+                    <img class="fact-item__image" src="img/facts1.png" alt="">
+                  </div>
+                  <div class="fact-item__text-container">
+                    <p class="fact-item__title"><span class="js-fact-counter-1">24111</span></p>
+                    <p class="fact-item__caption">студентов</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="change2__item">
+                <div class="fact-item">
+                  <div class="fact-item__image-container">
+                    <img class="fact-item__image" src="img/facts5.png" alt="">
+                  </div>
+                  <div class="fact-item__text-container">
+                    <p class="fact-item__title"><span class="js-fact-counter-2">165</span></p>
+                    <p class="fact-item__caption">направлений подготовки и специальностей</p>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+
+        <div class="fact__item-container">
+          <div class="change2">
+            <div class="change2__inner js-change-f2">
+              <div class="change2__item">
+                <div class="fact-item">
+                  <div class="fact-item__image-container">
+                    <img class="fact-item__image" src="img/facts3.png" alt="">
+                  </div>
+                  <div class="fact-item__text-container">
+                    <p class="fact-item__title"><span class="js-fact-counter-3">15</span></p>
+                    <p class="fact-item__caption">институтов и факультетов</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="change2__item">
+                <div class="fact-item">
+                  <div class="fact-item__image-container">
+                    <img class="fact-item__image" src="img/facts4.png" alt="">
+                  </div>
+                  <div class="fact-item__text-container">
+                    <p class="fact-item__title"><span class="js-fact-counter-4">1351</span></p>
+                    <p class="fact-item__caption">научно-педагогический работник</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="fact__item-container">
+          <div class="change2">
+            <div class="change2__inner js-change-f3">
+              <div class="change2__item">
+              <div class="fact-item">
+                <div class="fact-item__image-container">
+                  <img class="fact-item__image" src="img/facts6.png" alt="">
+                </div>
+                <div class="fact-item__text-container">
+                  <p class="fact-item__title"><span class="js-fact-counter-5">27</span></p>
+                  <p class="fact-item__caption">научных школ</p>
+                </div>
+              </div>
+            </div>
+              <div class="change2__item">
+              <div class="fact-item">
+                <div class="fact-item__image-container">
+                  <img class="fact-item__image" src="img/facts7.png" alt="">
+                </div>
+                <div class="fact-item__text-container">
+                  <p class="fact-item__title"><span class="js-fact-counter-6">45</span></p>
+                  <p class="fact-item__caption">базовых кафедр</p>
+                </div>
+              </div>
+            </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="fact__item-container">
+          <div class="change2">
+            <div class="change2__inner js-change-f4">
+              <div class="change2__item">
+              <div class="fact-item">
+                <div class="fact-item__image-container">
+                  <img class="fact-item__image" src="img/facts8.png" alt="">
+                </div>
+                <div class="fact-item__text-container">
+                  <p class="fact-item__title"><span class="js-fact-counter-7">33</span></p>
+                  <p class="fact-item__caption">научно-исследовательские лаборатории</p>
+                </div>
+              </div>
+            </div>
+
+              <div class="change2__item">
+              <div class="fact-item">
+                <div class="fact-item__image-container">
+                  <img class="fact-item__image" src="img/facts9.png" alt="">
+                </div>
+                <div class="fact-item__text-container">
+                  <p class="fact-item__title"><span class="js-fact-counter-8">30</span></p>
+                  <p class="fact-item__caption">научно-образовательных центров</p>
+                </div>
+              </div>
+            </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+    </div>
+  </section>
+
+  <script>
+    document.addEventListener("DOMContentLoaded", function (event) {
+
+      const startChange = function () {
+        const changeIt = function (selector) {
+          const changeItemEl = document.querySelector(selector);
+          changeItemEl.classList.toggle('change2__inner_active')
+        }
+
+        const slidesArr = [
+          () => changeIt('.js-change-f1'),
+          () => changeIt('.js-change-f2'),
+          () => changeIt('.js-change-f3'),
+          () => changeIt('.js-change-f4'),
+        ]
+
+        const maxSlideCnt = 3;
+        let slideCnt = 0;
+        setInterval(function () {
+          slidesArr[slideCnt]();
+          if (slideCnt < maxSlideCnt) {
+            slideCnt++
+          } else {
+            slideCnt = 0;
+          }
+        }, 3000)
+      }
+
+
+
+      // анимация увеличения слайдов
+      const afterReveal = function () {
+
+        const fact1El = document.querySelector('.js-fact-counter-1');
+        const od1 = new Odometer({
+          el: fact1El,
+          value: 0,
+          format: '',
+        });
+        fact1El.innerHTML = 24111;
+
+
+        const fact2El = document.querySelector('.js-fact-counter-2');
+        const od2 = new Odometer({
+          el: fact2El,
+          value: 0,
+          format: '',
+        });
+        fact2El.innerHTML = 165;
+
+        const fact3El = document.querySelector('.js-fact-counter-3');
+        const od3 = new Odometer({
+          el: fact3El,
+          value: 0,
+          format: '',
+        });
+        fact3El.innerHTML = 15;
+
+        const fact4El = document.querySelector('.js-fact-counter-4');
+        const od4 = new Odometer({
+          el: fact4El,
+          value: 0,
+          format: '',
+        });
+        fact4El.innerHTML = 1351;
+
+        const fact5El = document.querySelector('.js-fact-counter-5');
+        const od5 = new Odometer({
+          el: fact5El,
+          value: 0,
+          format: '',
+        });
+        fact5El.innerHTML = 27;
+
+
+        const fact6El = document.querySelector('.js-fact-counter-6');
+        const od6 = new Odometer({
+          el: fact6El,
+          value: 0,
+          format: '',
+        });
+        fact6El.innerHTML = 45;
+
+        const fact7El = document.querySelector('.js-fact-counter-7');
+        const od7 = new Odometer({
+          el: fact7El,
+          value: 0,
+          format: '',
+        });
+        fact7El.innerHTML = 33;
+
+        const fact8El = document.querySelector('.js-fact-counter-8');
+        const od8 = new Odometer({
+          el: fact8El,
+          value: 0,
+          format: '',
+        });
+        fact8El.innerHTML = 30;
+
+        startChange();
+
+      }
+
+      const wowCounter = new WOW({
+        mobile: false,
+        boxClass: 'wow2',
+        callback: afterReveal
+      });
+      wowCounter.init();
+    })
+  </script>
+
+  <section class="science23">
+    <div class="heading23 mb-4">
+      <div class="container site-section">
+        <div class="heading23__inner">
+          <h2 class="heading23__title">#Наука_вперед!</h2>
+        </div>
+      </div>
+    </div>
+
+    <div class="container site-section wow fadeIn">
+      <div class="flex-grid">
+        <div class="flex-grid__col-33">
+          <a class="science-item mb-4" href="#">
+            <div class="science-item__icon">
+              <img class="science-item__icon-image" src="img/s1.png" alt="">
+            </div>
+            <p class="science-item__text">Ученые СКФУ синтезировали вещества с потенциально высокой противораковой
+              активностью</p>
+          </a>
+        </div>
+
+        <div class="flex-grid__col-33">
+          <a class="science-item mb-4" href="#">
+            <div class="science-item__icon">
+              <img class="science-item__icon-image" src="img/s2.png" alt="">
+            </div>
+            <p class="science-item__text">Изобретение ученых СКФУ поможет людям, страдающим диабетом</p>
+          </a>
+        </div>
+
+        <div class="flex-grid__col-33">
+          <a class="science-item mb-4" href="#">
+            <div class="science-item__icon">
+              <img class="science-item__icon-image" src="img/s3.png" alt="">
+            </div>
+            <p class="science-item__text">Ученые СКФУ создадут первое в России производство пребиотика лактулозы</p>
+          </a>
+        </div>
+
+        <div class="flex-grid__col-33">
+          <a class="science-item mb-4" href="#">
+            <div class="science-item__icon">
+              <img class="science-item__icon-image" src="img/s4.png" alt="">
+            </div>
+            <p class="science-item__text">Победить артрит помогут куриные эмбрионы</p>
+          </a>
+        </div>
+
+        <div class="flex-grid__col-33">
+          <a class="science-item mb-4" href="#">
+            <div class="science-item__icon">
+              <img class="science-item__icon-image" src="img/s5.png" alt="">
+            </div>
+            <p class="science-item__text">Создание виртуальных лабораторий для школьников</p>
+          </a>
+        </div>
+
+        <div class="flex-grid__col-33">
+          <a class="science-item mb-4" href="#">
+            <div class="science-item__icon">
+              <img class="science-item__icon-image" src="img/s6.png" alt="">
+            </div>
+            <p class="science-item__text">Нейронные сети помогут распознать рак кожи по фото</p>
+          </a>
+        </div>
+
+      </div>
+    </div>
+
+  </section>
+
+  <section class="stud-life">
+    <div class="heading23">
+      <div class="container site-section">
+        <div class="heading23__inner">
+          <h2 class="heading23__title">#СТУДLIFE 360°</h2>
+        </div>
+      </div>
+    </div>
+
+    <div class="container site-section">
+      <div class="slider-life">
+
+        <div class="slider-life__text-container wow fadeIn" data-wow-offset="300">
+          <div class="slider-life__text-container-inner">
+            <div class="swiper slider-life__swiper js-slider-life">
+              <div class="swiper-wrapper">
+
+                <div class="swiper-slide slider-life__swiper-slide">
+                  <div class="card-text">
+                    <p class="card-text__title">Будущих докторов наук готовят в СУНЦ СКФУ</p>
+                    <p class="card-text__desc">Специализированный учебный научный центр Северо-Кавказского федерального университета вошел в топ лучших образовательных организаций по подготовке будущих математиков.</p>
+                    <a class="card-text__link js-slider-life-link" href="#">Подробнее <span
+                      class="card-text__link-icon js-link-icon">&#187;</span></a>
+                  </div>
+                </div>
+
+                <div class="swiper-slide slider-life__swiper-slide">
+                  <div class="card-text">
+                    <p class="card-text__title">Своих героев нашли в ВУЦ СКФУ</p>
+                    <p class="card-text__desc">Творческий коллектив Северо-Кавказского федерального университета стал победителем конкурса документальных фильмов «Герои среди нас». Свою работу студенты снимали о преподавателях Военного учебного центра СКФУ.</p>
+                    <a class="card-text__link js-slider-life-link" href="#">Подробнее <span
+                      class="card-text__link-icon js-link-icon">&#187;</span></a>
+                  </div>
+                </div>
+
+                <div class="swiper-slide slider-life__swiper-slide">
+                  <div class="card-text">
+                    <p class="card-text__title">Студентам СКФУ провели мастер-класс по актерскому мастерству </p>
+                    <p class="card-text__desc">В Северо-Кавказском федеральном университете прошел мастер-класс от артиста Ставропольского академического театра драмы Георгия Серебрянского. Его посетили участники театральной студии «МЫ» СКФУ.</p>
+                    <a class="card-text__link js-slider-life-link" href="#">Подробнее <span
+                      class="card-text__link-icon js-link-icon">&#187;</span></a>
+                  </div>
+                </div>
+
+                <div class="swiper-slide slider-life__swiper-slide">
+                  <div class="card-text">
+                    <p class="card-text__title">СКФУ выпускает в мир послов русского языка</p>
+                    <p class="card-text__desc">Студенты Северо-Кавказского федерального университета вновь поборолись
+                      за
+                      статус послов русского языка в мире. Трое обучающихся СКФУ стали победителями заочного этапа
+                      конкурса и
+                      достойно представили вуз уже на очной площадке в Пятигорске.</p>
+                    <a class="card-text__link js-slider-life-link" href="#">Подробнее <span
+                      class="card-text__link-icon js-link-icon">&#187;</span></a>
+                  </div>
+                </div>
+
+              </div>
+
+            </div>
+          </div>
+          <div
+            class="swiper-button-next slider-life__btn slider-life__btn_next js-slider-life-next-btn wow horizontalShaking"
+            data-wow-delay="1s"></div>
+          <div
+            class="swiper-button-prev slider-life__btn slider-life__btn_prev js-slider-life-prev-btn wow horizontalShaking"
+            data-wow-delay="1s"></div>
+        </div>
+
+        <div class="slider-life__image-container">
+          <div class="swiper js-slider-life-image slider-life__image-swiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <img class="slider-life__image" src="img/pic0.jpg" alt="Заголовок слайда">
+              </div>
+              <div class="swiper-slide">
+                <img class="slider-life__image" src="img/pic1.jpg" alt="Заголовок слайда">
+              </div>
+              <div class="swiper-slide">
+                <img class="slider-life__image" src="img/pic5.jpg" alt="Заголовок слайда">
+              </div>
+              <div class="swiper-slide">
+                <img class="slider-life__image" src="img/pic6.jpg" alt="Заголовок слайда">
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <script>
+    document.addEventListener("DOMContentLoaded", function (event) {
+
+      const lifeImageSwiper = new Swiper('.js-slider-life-image', {
+        slidesPerView: 1,
+        spaceBetween: 50,
+        loop: true,
+        watchSlidesProgress: true,
+        allowTouchMove: false,
+        effect: "cube",
+        speed: 2000,
+        cubeEffect: {
+          shadow: true,
+          slideShadows: true,
+          shadowOffset: 20,
+          shadowScale: 0.94,
+        },
+      });
+
+      const lifeSwiper = new Swiper('.js-slider-life', {
+        slidesPerView: 1,
+        spaceBetween: 50,
+        loop: true,
+        navigation: {
+          nextEl: '.js-slider-life-next-btn',
+          prevEl: '.js-slider-life-prev-btn',
+        },
+        thumbs: {
+          swiper: lifeImageSwiper
+        },
+      });
+
+      lifeSwiper.on('slideChange', function () {
+        let curSlideEl = lifeSwiper.slides[lifeSwiper.realIndex];
+        let linkEl = curSlideEl.querySelector('.js-slider-life-link');
+        linkEl.classList.add('card-text__link_animated');
+
+        let linkIconEl = linkEl.querySelector('.js-link-icon');
+        linkIconEl.classList.add('card-text__link-icon_animated');
+
+        linkEl.addEventListener("animationend", function () {
+          linkEl.classList.remove("card-text__link_animated");
+        });
+
+        linkIconEl.addEventListener("animationend", function () {
+          linkIconEl.classList.remove('card-text__link-icon_animated');
+        });
+      });
+
+    });
+  </script>
+
+  <section class="mb-4">
+    <div class="heading23 mb-4">
+      <div class="container site-section">
+        <div class="heading23__inner">
+          <h2 class="heading23__title">Вокруг СКФУ</h2>
+          <button class="btn-change js-btn-change" type="button">
+            <svg class="btn-change__icon">
+              <use xlink:href="img/svg-sprite.svg#icon-change"></use>
+            </svg>
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <div class="container site-section wow3 fadeIn" data-wow-offset="100">
+      <div class="gallery23">
+        <div class="gallery23__item gallery23__item_1">
+
+          <div class="change2">
+
+            <div class="change2__inner js-change-gal1">
+              <div class="change2__item">
+                <a class="card-image" href="#">
+                  <img class="card-image__image" loading="lazy" src="img/pic4.jpg" alt="Подпись к фотографии" />
+                  <div class="card-image__info">
+                    <p class="card-image__title">WorldSkills Russia в СКФУ</p>
+                    <p class="card-image__detail">Делай мир лучше силой своего мастерства!</p>
+                  </div>
+                  <p class="card-image__link">Подробнее <span class="card-image__link-icon">&#187;</span></p>
+                </a>
+              </div>
+
+              <div class="change2__item">
+                <a class="card-image" href="#">
+                  <img class="card-image__image" loading="lazy" src="img/pic0.jpg" alt="Подпись к фотографии" />
+                  <div class="card-image__info">
+                    <p class="card-image__title">Среднее профессиональное образование в СКФУ</p>
+                    <p class="card-image__detail">Обучение по специальностям среднего профессионального образования в городе Ставрополе.</p>
+                  </div>
+                  <p class="card-image__link">Подробнее <span class="card-image__link-icon">&#187;</span></p>
+                </a>
+              </div>
+
+            </div>
+
+          </div>
+
+        </div>
+
+        <div class="gallery23__item gallery23__item_2">
+          <div class="change2">
+            <div class="change2__inner js-change-gal2">
+              <div class="change2__item">
+                <a class="card-image" href="#">
+              <img class="card-image__image" loading="lazy" src="img/pic9.jpg" alt="Подпись к фотографии" />
+              <div class="card-image__info">
+                <p class="card-image__title card-image__title_sm">Дополнительное профессиональное образование</p>
+                <p class="card-image__detail">Повышение квалификации, языковые программы, профессиональная переподготовка</p>
+              </div>
+              <p class="card-image__link">Подробнее <span class="card-image__link-icon">&#187;</span></p>
+            </a>
+              </div>
+
+              <div class="change2__item">
+                <a class="card-image" href="#">
+              <img class="card-image__image" loading="lazy" src="img/pic2.jpg" alt="Подпись к фотографии" />
+              <div class="card-image__info">
+                <p class="card-image__title card-image__title_sm">Ресурсный учебно-методический центр по обучению инвалидов и лиц с ограниченными возможностями здоровья</p>
+                <p class="card-image__detail"></p>
+              </div>
+              <p class="card-image__link">Подробнее <span class="card-image__link-icon">&#187;</span></p>
+            </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="gallery23__item gallery23__item_3">
+          <div class="change2">
+            <div class="change2__inner js-change-gal3">
+              <div class="change2__item">
+                <a class="card-image" href="#">
+              <img class="card-image__image" loading="lazy" src="img/pic10.jpg" alt="Подпись к фотографии" />
+              <div class="card-image__info">
+                <p class="card-image__title card-image__title_sm">Ассоциация выпускников СКФУ</p>
+                <p class="card-image__detail"></p>
+              </div>
+              <p class="card-image__link">Подробнее <span class="card-image__link-icon">&#187;</span></p>
+            </a>
+              </div>
+
+              <div class="change2__item">
+                <a class="card-image" href="#">
+              <img class="card-image__image" loading="lazy" src="img/pic11.jpg" alt="Подпись к фотографии" />
+              <div class="card-image__info">
+                <p class="card-image__title card-image__title_sm">Научная библиотека</p>
+                <p class="card-image__detail">Репозиторий научных публикаций, электронный каталог, электронные ресурсы, заказ литературы </p>
+              </div>
+              <p class="card-image__link">Подробнее <span class="card-image__link-icon">&#187;</span></p>
+            </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="gallery23__item gallery23__item_4">
+          <div class="change2">
+            <div class="change2__inner js-change-gal4">
+              <div class="change2__item">
+                <a class="card-image" href="#">
+              <img class="card-image__image" loading="lazy" src="img/pic12.jpg" alt="Подпись к фотографии" />
+              <div class="card-image__info">
+                <p class="card-image__title">Система управления обучением СКФУ</p>
+                <p class="card-image__detail">Электронные учебные курсы</p>
+              </div>
+              <p class="card-image__link">Подробнее <span class="card-image__link-icon">&#187;</span></p>
+            </a>
+              </div>
+
+              <div class="change2__item">
+                <a class="card-image" href="#">
+              <img class="card-image__image" loading="lazy" src="img/pic8.jpg" alt="Подпись к фотографии" />
+              <div class="card-image__info">
+                <p class="card-image__title">Специализированный учебный научный центр</p>
+                <p class="card-image__detail">Профильная школа для старшеклассников. Углубленная школьная программа, дополнительная научная и проектная деятельность</p>
+              </div>
+              <p class="card-image__link">Подробнее <span class="card-image__link-icon">&#187;</span></p>
+            </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="gallery23__item gallery23__item_5">
+          <div class="change2">
+            <div class="change2__inner js-change-gal5">
+              <div class="change2__item">
+                <a class="card-image" href="#">
+              <img class="card-image__image" loading="lazy" src="img/pic13.jpg" alt="Подпись к фотографии" />
+              <div class="card-image__info">
+                <p class="card-image__title card-image__title_sm">Трудоустройство</p>
+                <p class="card-image__detail">Вакансии для студентов и выпускников</p>
+              </div>
+              <p class="card-image__link">Подробнее <span class="card-image__link-icon">&#187;</span></p>
+            </a>
+              </div>
+
+              <div class="change2__item">
+                <a class="card-image" href="#">
+              <img class="card-image__image" loading="lazy" src="img/pic14.jpg" alt="Подпись к фотографии" />
+              <div class="card-image__info">
+                <p class="card-image__title card-image__title_sm">Точка кипения СКФУ</p>
+                <p class="card-image__detail">Проведение образовательных и проектных мероприятий, доступ к цифровой платформе Университета 20.35</p>
+              </div>
+              <p class="card-image__link">Подробнее <span class="card-image__link-icon">&#187;</span></p>
+            </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="gallery23__item gallery23__item_6">
+          <div class="change2 js-change-6">
+            <div class="change2__inner js-change-gal6">
+              <div class="change2__item">
+                <a class="card-image" href="#">
+              <img class="card-image__image" loading="lazy" src="img/pic7.jpg" alt="Подпись к фотографии" />
+              <div class="card-image__info">
+                <p class="card-image__title card-image__title_sm">Совет обучающихся</p>
+                <p class="card-image__detail">Более подробное описание фото</p>
+              </div>
+              <p class="card-image__link">Подробнее <span class="card-image__link-icon">&#187;</span></p>
+            </a>
+              </div>
+
+              <div class="change2__item">
+                <a class="card-image" href="#">
+              <img class="card-image__image" loading="lazy" src="img/pic2.jpg" alt="Подпись к фотографии" />
+              <div class="card-image__info">
+                <p class="card-image__title card-image__title_sm">Куратору и старосте</p>
+                <p class="card-image__detail"></p>
+              </div>
+              <p class="card-image__link">Подробнее <span class="card-image__link-icon">&#187;</span></p>
+            </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="gallery23__item gallery23__item_7">
+          <div class="change2">
+            <div class="change2__inner js-change-gal7">
+              <div class="change2__item">
+                <a class="card-image" href="#">
+              <img class="card-image__image" loading="lazy" src="img/pic15.jpg" alt="Подпись к фотографии" />
+              <div class="card-image__info">
+                <p class="card-image__title card-image__title_sm">Военный учебный центр</p>
+                <p class="card-image__detail"></p>
+              </div>
+              <p class="card-image__link">Подробнее <span class="card-image__link-icon">&#187;</span></p>
+            </a>
+              </div>
+
+              <div class="change2__item">
+                <a class="card-image" href="#">
+              <img class="card-image__image" loading="lazy" src="img/pic6.jpg" alt="Подпись к фотографии" />
+              <div class="card-image__info">
+                <p class="card-image__title card-image__title_sm">Предметные школы</p>
+                <p class="card-image__detail">Более подробное описание фото</p>
+              </div>
+              <p class="card-image__link">Подробнее <span class="card-image__link-icon">&#187;</span></p>
+            </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="gallery23__item gallery23__item_8">
+          <div class="change2">
+            <div class="change2__inner js-change-gal8">
+              <div class="change2__item">
+                <a class="card-image" href="#">
+              <img class="card-image__image" loading="lazy" src="img/news3.jpg" alt="Подпись к фотографии" />
+              <div class="card-image__info">
+                <p class="card-image__title card-image__title_sm">Сотрудничество с ведущими кампаниями</p>
+                <p class="card-image__detail"></p>
+              </div>
+              <p class="card-image__link">Подробнее <span class="card-image__link-icon">&#187;</span></p>
+            </a>
+              </div>
+
+              <div class="change2__item">
+                <a class="card-image" href="#">
+              <img class="card-image__image" loading="lazy" src="img/news4.jpg" alt="Подпись к фотографии" />
+              <div class="card-image__info">
+                <p class="card-image__title card-image__title_sm">Активная студенческая жизнь</p>
+                <p class="card-image__detail"></p>
+              </div>
+              <p class="card-image__link">Подробнее <span class="card-image__link-icon">&#187;</span></p>
+            </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="gallery23__item gallery23__item_9">
+          <div class="change2">
+
+            <div class="change2__inner js-change-gal9">
+              <div class="change2__item">
+                <a class="card-image" href="#">
+              <img class="card-image__image" loading="lazy" src="img/n-news1.jpg" alt="Подпись к фотографии" />
+              <div class="card-image__info">
+                <p class="card-image__title card-image__title_sm">Подготовительные курсы</p>
+                <p class="card-image__detail"></p>
+              </div>
+              <p class="card-image__link">Подробнее <span class="card-image__link-icon">&#187;</span></p>
+            </a>
+              </div>
+
+              <div class="change2__item">
+                <a class="card-image" href="#">
+              <img class="card-image__image" loading="lazy" src="img/n-news3.jpg" alt="Подпись к фотографии" />
+              <div class="card-image__info">
+                <p class="card-image__title card-image__title_sm">Научные исследования</p>
+                <p class="card-image__detail"></p>
+              </div>
+              <p class="card-image__link">Подробнее <span class="card-image__link-icon">&#187;</span></p>
+            </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+  </section>
+
+
+  <script>
+    document.addEventListener("DOMContentLoaded", function (event) {
+
+      const startChange = function () {
+        const changeIt = function (selector) {
+          const changeItemEl = document.querySelector(selector);
+          changeItemEl.classList.toggle('change2__inner_active')
+        }
+
+        const slidesArr = [
+          () => changeIt('.js-change-gal1'),
+          () => changeIt('.js-change-gal2'),
+          () => changeIt('.js-change-gal3'),
+          () => changeIt('.js-change-gal7'),
+          () => changeIt('.js-change-gal5'),
+          () => changeIt('.js-change-gal6'),
+          () => changeIt('.js-change-gal4'),
+          () => changeIt('.js-change-gal8'),
+          () => changeIt('.js-change-gal9'),
+        ]
+
+        const maxSlideCnt = 8;
+        let slideCnt = 0;
+        setInterval(function () {
+          slidesArr[slideCnt]();
+          if (slideCnt < maxSlideCnt) {
+            slideCnt++
+          } else {
+            slideCnt = 0;
+          }
+        }, 3000)
+
+        const changeBtn = document.querySelector('.js-btn-change');
+        changeBtn.addEventListener('click', function () {
+          for (let i = 0; i <= maxSlideCnt; i++) {
+            slidesArr[i]();
+          }
+
+        })
+      }
+
+      const wowGallery = new WOW({
+        mobile: false,
+        boxClass: 'wow3',
+        callback: startChange
+      });
+      wowGallery.init();
+    })
+  </script>
+
+  <section class="mb-4 wow fadeIn" data-wow-duration="1s">
+    <div class="heading23 mb-4">
+      <div class="container site-section">
+        <div class="heading23__inner">
+          <h2 class="heading23__title">#СКФУ</h2>
+        </div>
+      </div>
+    </div>
+
+    <div class="container site-section">
+      <div class="slider-soc">
+        <div class="swiper-container js-slider-soc">
+          <div class="swiper-wrapper">
+
+            <div class="swiper-slide">
+              <a class="card-image" href="#">
+                <img class="card-image__image" loading="lazy" src="img/inst2.jpg" width="260" height="167"
+                     alt="Подпись к фотографии" />
+                <div class="card-image__info card-image__info_hidden">
+                  <p class="card-image__title card-image__title_sm">Тотальный диктант для всех</p>
+                </div>
+                <p class="card-image__link card-image__link_sm">Подробнее <span
+                  class="card-image__link-icon">&#187;</span></p>
+              </a>
+            </div>
+
+
+            <div class="swiper-slide">
+              <a class="card-image" href="#">
+                <img class="card-image__image" loading="lazy" src="img/news4.jpg" width="260" height="167"
+                     alt="Подпись к фотографии" />
+                <div class="card-image__info card-image__info_hidden">
+                  <p class="card-image__title card-image__title_sm">"Маруся": от теории к практике</p>
+                </div>
+                <p class="card-image__link card-image__link_sm">Подробнее <span
+                  class="card-image__link-icon">&#187;</span></p>
+              </a>
+            </div>
+
+            <div class="swiper-slide">
+              <a class="card-image" href="#">
+                <img class="card-image__image" loading="lazy" src="img/inst2.jpg" width="260" height="167"
+                     alt="Подпись к фотографии" />
+                <div class="card-image__info card-image__info_hidden">
+                  <p class="card-image__title card-image__title_sm">Тотальный диктант для всех</p>
+                </div>
+                <p class="card-image__link card-image__link_sm">Подробнее <span
+                  class="card-image__link-icon">&#187;</span></p>
+              </a>
+            </div>
+
+            <div class="swiper-slide">
+              <a class="card-image" href="#">
+                <img class="card-image__image" loading="lazy" src="img/news4.jpg" width="260" height="167"
+                     alt="Подпись к фотографии" />
+                <div class="card-image__info card-image__info_hidden">
+                  <p class="card-image__title card-image__title_sm">"Маруся": от теории к практике</p>
+                </div>
+                <p class="card-image__link card-image__link_sm">Подробнее <span
+                  class="card-image__link-icon">&#187;</span></p>
+              </a>
+            </div>
+
+            <div class="swiper-slide">
+              <a class="card-image" href="#">
+                <img class="card-image__image" loading="lazy" src="img/inst1.jpg" width="260" height="167"
+                     alt="Подпись к фотографии" />
+                <div class="card-image__info card-image__info_hidden">
+                  <p class="card-image__title card-image__title_sm">СКФУ выиграл грант на обучение более 200 бойцов студенческих отрядов</p>
+                </div>
+                <p class="card-image__link card-image__link_sm">Подробнее <span
+                  class="card-image__link-icon">&#187;</span></p>
+              </a>
+            </div>
+
+            <div class="swiper-slide">
+              <a class="card-image" href="#">
+                <img class="card-image__image" loading="lazy" src="img/inst2.jpg" width="260" height="167"
+                     alt="Подпись к фотографии" />
+                <div class="card-image__info card-image__info_hidden">
+                  <p class="card-image__title card-image__title_sm">Тотальный диктант для всех</p>
+                </div>
+                <p class="card-image__link card-image__link_sm">Подробнее <span
+                  class="card-image__link-icon">&#187;</span></p>
+              </a>
+            </div>
+
+            <div class="swiper-slide">
+              <a class="card-image" href="#">
+                <img class="card-image__image" loading="lazy" src="img/inst2.jpg" width="260" height="167"
+                     alt="Подпись к фотографии" />
+                <div class="card-image__info card-image__info_hidden">
+                  <p class="card-image__title card-image__title_sm">Тотальный диктант для всех</p>
+                </div>
+                <p class="card-image__link card-image__link_sm">Подробнее <span
+                  class="card-image__link-icon">&#187;</span></p>
+              </a>
+            </div>
+
+            <div class="swiper-slide">
+              <a class="card-image" href="#">
+                <img class="card-image__image" loading="lazy" src="img/inst1.jpg" width="260" height="167"
+                     alt="Подпись к фотографии" />
+                <div class="card-image__info card-image__info_hidden">
+                  <p class="card-image__title card-image__title_sm">СКФУ выиграл грант на обучение более 200 бойцов студенческих отрядов</p>
+                </div>
+                <p class="card-image__link card-image__link_sm">Подробнее <span
+                  class="card-image__link-icon">&#187;</span></p>
+              </a>
+            </div>
+
+            <div class="swiper-slide">
+              <a class="card-image" href="#">
+                <img class="card-image__image" loading="lazy" src="img/inst2.jpg" width="260" height="167"
+                     alt="Подпись к фотографии" />
+                <div class="card-image__info card-image__info_hidden">
+                  <p class="card-image__title card-image__title_sm">Тотальный диктант для всех</p>
+                </div>
+                <p class="card-image__link card-image__link_sm">Подробнее <span
+                  class="card-image__link-icon">&#187;</span></p>
+              </a>
+            </div>
+
+            <div class="swiper-slide">
+              <a class="card-image" href="#">
+                <img class="card-image__image" loading="lazy" src="img/inst1.jpg" width="260" height="167"
+                     alt="Подпись к фотографии" />
+                <div class="card-image__info card-image__info_hidden">
+                  <p class="card-image__title card-image__title_sm">СКФУ выиграл грант на обучение более 200 бойцов студенческих отрядов</p>
+                </div>
+                <p class="card-image__link card-image__link_sm">Подробнее <span
+                  class="card-image__link-icon">&#187;</span></p>
+              </a>
+            </div>
+
+            <div class="swiper-slide">
+              <a class="card-image" href="#">
+                <img class="card-image__image" loading="lazy" src="img/inst2.jpg" width="260" height="167"
+                     alt="Подпись к фотографии" />
+                <div class="card-image__info card-image__info_hidden">
+                  <p class="card-image__title card-image__title_sm">Тотальный диктант для всех</p>
+                </div>
+                <p class="card-image__link card-image__link_sm">Подробнее <span
+                  class="card-image__link-icon">&#187;</span></p>
+              </a>
+            </div>
+
+            <div class="swiper-slide">
+              <a class="card-image" href="#">
+                <img class="card-image__image" loading="lazy" src="img/inst1.jpg" width="260" height="167"
+                     alt="Подпись к фотографии" />
+                <div class="card-image__info card-image__info_hidden">
+                  <p class="card-image__title card-image__title_sm">СКФУ выиграл грант на обучение более 200 бойцов студенческих отрядов</p>
+                </div>
+                <p class="card-image__link card-image__link_sm">Подробнее <span
+                  class="card-image__link-icon">&#187;</span></p>
+              </a>
+            </div>
+
+            <div class="swiper-slide">
+              <a class="card-image" href="#">
+                <img class="card-image__image" loading="lazy" src="img/n-news1.jpg" width="260" height="167"
+                     alt="Подпись к фотографии" />
+                <div class="card-image__info card-image__info_hidden">
+                  <p class="card-image__title card-image__title_sm">Студенты СКФУ в стартап-школе "Бизнес+"</p>
+                </div>
+                <p class="card-image__link card-image__link_sm">Подробнее <span
+                  class="card-image__link-icon">&#187;</span></p>
+              </a>
+            </div>
+
+            <div class="swiper-slide">
+              <a class="card-image" href="#">
+                <img class="card-image__image" loading="lazy" src="img/n-news8.jpg" width="260" height="167"
+                     alt="Подпись к фотографии" />
+                <div class="card-image__info card-image__info_hidden">
+                  <p class="card-image__title card-image__title_sm">Как работать в команде</p>
+                </div>
+                <p class="card-image__link card-image__link_sm">Подробнее <span
+                  class="card-image__link-icon">&#187;</span></p>
+              </a>
+            </div>
+
+            <div class="swiper-slide">
+              <a class="card-image"  href="#">
+                <img class="card-image__image" loading="lazy" src="img/pic9.jpg" width="260" height="167"
+                     alt="Подпись к фотографии" />
+                <div class="card-image__info card-image__info_hidden">
+                  <p class="card-image__title card-image__title_sm">Как правильно играть в экономику?</p>
+                </div>
+                <p class="card-image__link card-image__link_sm">Подробнее <span
+                  class="card-image__link-icon">&#187;</span></p>
+              </a>
+            </div>
+
+          </div>
+
+        </div>
+
+        <div class="swiper-button-next js-slider-soc-next-btn"></div>
+        <div class="swiper-button-prev js-slider-soc-prev-btn"></div>
+      </div>
+
+    </div>
+  </section>
+
+  <script>
+    document.addEventListener("DOMContentLoaded", function (event) {
+      const socSwiper = new Swiper('.js-slider-soc', {
+        slidesPerView: 1,
+        spaceBetween: 5,
+        effect: "coverflow",
+        loop: true,
+        centeredSlides: true,
+        coverflowEffect: {
+          rotate: 20,
+          stretch: 0,
+          depth: 250,
+          modifier: 0.8,
+        },
+        breakpoints: {
+          320: {
+            slidesPerView: 1.3,
+            spaceBetween: 20,
+          },
+
+          400: {
+            slidesPerView: 1.5,
+            spaceBetween: 20,
+          },
+
+          540: {
+            slidesPerView: 2.1,
+            spaceBetween: 20,
+          },
+
+          768: {
+            slidesPerView: 3,
+            spaceBetween: 40,
+          },
+          992: {
+            slidesPerView: 4,
+            spaceBetween: 50,
+          },
+          1250: {
+            slidesPerView: 5,
+            spaceBetween: 50,
+          },
+          1500: {
+            slidesPerView: 6,
+            spaceBetween: 50,
+          },
+        },
+        navigation: {
+          nextEl: '.js-slider-soc-next-btn',
+          prevEl: '.js-slider-soc-prev-btn',
+        },
+      });
+    });
+
+  </script>
+
+
+</main>
+
+<footer class="footer">
+  <div class="footer__container">
+    <div class="footer__wrapper">
+      <div class="footer__col1">
+        <div class="footer__col1-wrapper">
+          <div class="footer__logo-container">
+            <img class="footer__logo" src="img/logo-new-white.svg">
+          </div>
+
+          <div class="footer__name-container">
+            <p>ФГАОУ ВО «Северо-Кавказский федеральный университет»</p>
+            <p>Официальной информацией о СКФУ могут считаться только материалы, размещённые на сайте ncfu.ru или на сайтах третьего уровня доменной зоны ncfu.ru. За сведения, размещённые на внешних ресурсах, СКФУ ответственности не несёт.</p>
+
+            <div class="detail">
+              <button class="detail__btn js-detail-btn">Свидетельство СМИ  <span class="detail__icon">&#187;</span></button>
+              <p class="detail__text detail__text_hidden">Выписка из реестра зарегистрированных СМИ серия ЭЛ № ФС 77 – 83810 выдано 19.08.2022 г. Федеральной службы по надзору в сфере связи, информационных технологий и массовых коммуникаций (Роскомнадзор) Учредитель средства массовой информации: ФГАОУ ВО Северо-Кавказский федеральный университет<br>
+                Главный редактор СМИ Сетевое издание: «Новости СКФУ»: М.Г. Тизенгаузен<br>
+                Адрес электронной почты, номер телефона редакции: press@ncfu.ru +7(8652)33-07-38
+              </p>
+            </div>
+
+          </div>
+        </div>
+      </div>
+      <div class="footer__col2">
+        <p><a href="#">Министерство науки и высшего образования Российской Федерации</a></p>
+        <p><a href="#">Министерство просвещения Российской Федерации</a></p>
+        <p><a href="#">Антикоррупционная деятельность</a></p>
+      </div>
+      <div class="footer__col3">
+        <p>Контакт-центр: 8-800-200-64-76<br>
+          (звонок бесплатный)</p>
+        <p><a href="#">Отправить обращение в организацию</a></p>
+      </div>
+      <div class="footer__col4">
+        <p class="footer__title">Приемная комиссия</p>
+        <p>Телефон: 8 (8652) 95-68-13<br>
+          Адрес: 355029, г.&nbsp;Ставрополь, пр. Кулакова, 2 (корпус 10)<br>
+          E-mail: <a href="mailto:selcom@ncfu.ru">selcom@ncfu.ru</a></p>
+      </div>
+      <div class="footer__col5">
+        <p class="footer__title">Контакты</p>
+        <p>ФГАОУ ВО «Северо-Кавказский федеральный университет»<br>
+          Адрес: 355017, г.Ставрополь, ул.&nbsp;Пушкина, 1<br>
+          Телефон: 8 (8652) 95-68-08
+          Факс: 8 (8652) 95-68-03
+          E-mail: <a href="mailto:info@ncfu.ru">info@ncfu.ru</a>
+        </p>
+        <div class="social social--footer">
+          <a href="http://www.facebook.com/northcfu">
+            <svg class="icon"><use xlink:href="img/svg-sprite.svg#icon-facebook2"></use></svg>
+          </a>
+          <a href="https://vk.com/ncfu_main">
+            <svg class="icon"><use xlink:href="img/svg-sprite.svg#icon-vk"></use></svg>
+          </a>
+          <a href="https://www.instagram.com/ncfu_official/">
+            <svg class="icon"><use xlink:href="img/svg-sprite.svg#icon-instagram"></use></svg>
+          </a>
+          <a href="http://www.youtube.com/channel/UCPW57m5f6gQGBgO7a9Gpt1w">
+            <svg class="icon"><use xlink:href="img/svg-sprite.svg#icon-youtube"></use></svg>
+          </a>
+          <a href="http://www.youtube.com/channel/UCPW57m5f6gQGBgO7a9Gpt1w">
+            <svg class="icon"><use xlink:href="img/svg-sprite-social.svg#icon-rutube"></use></svg>
+          </a>
+
+          <a href="https://dzen.ru/ncfu">
+            <svg class="icon"><use xlink:href="img/svg-sprite.svg#icon-dzen"></use></svg>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function (event) {
+    const detailBtnEl = document.querySelector('.js-detail-btn');
+    detailBtnEl.addEventListener('click', function () {
+      detailBtnEl.nextElementSibling.classList.toggle('detail__text_hidden');
+    })
+  });
+</script>
+
+<div class="cookie-notice">
+  <p class="m-0 p-0">На нашем сайте используются cookie-файлы и другие аналогичные технологии.
+    Если, прочитав это сообщение, вы остаётесь на нашем сайте, это означает,
+    что вы не возражаете против использовании этих технологий.</p>
+  <button class="btn-cookie">Принять</button>
+</div>
+
+<script src="js/single/svgxuse.min.js"></script>
+<script src="js/bundle.js"></script>
+
+</body>
+</html>

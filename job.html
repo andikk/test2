@@ -1,0 +1,1098 @@
+<!doctype html>
+<html lang="ru">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,700;1,400&display=swap" rel="stylesheet">
+  <link href="css/spinner/react-spinner-loader.css" rel="stylesheet"/>
+  <link href="css/other.css" rel="stylesheet" type="text/css">
+
+
+  <title>СКФУ</title>
+</head>
+
+<body class="vertical-block">
+
+<header>
+
+  <div class="top">
+
+    <div class="top__container">
+      <div class="sv_settings text-center" id="sv_settings">
+        <span>Размер шрифта
+            <span class="fs-outer">
+                <button class="btn btn-default fs-n" id="fs-n">А</button>
+                <button class="btn btn-default fs-m" id="fs-m">А</button>
+                <button class="btn btn-default fs-l" id="fs-l">А</button>
+            </span>
+        </span>
+
+        <span class="mgl20">Цветовая схема
+            <span class="cs-outer">
+                <button class="btn btn-default cs-bw" id="cs-bw">А</button>
+                <button class="btn btn-default cs-wb" id="cs-wb">А</button>
+                <button class="btn btn-default cs-bb" id="cs-bb">А</button>
+                <button class="btn btn-default cs-gb" id="cs-gb">А</button>
+                <button class="btn btn-default cs-yg" id="cs-yg">А</button>
+            </span>
+        </span>
+
+        <span class="mgl20">Изображения
+            <span class="img-outer">
+                <button class="btn btn-default" id="img-onoff"><span class="glyphicon glyphicon-picture"></span><span id="img-onoff-text"> Отключить</span></button>
+            </span>
+        </span>
+      </div>
+
+      <a class="link top__link" href="#"><svg class="icon"><use xlink:href="img/svg-sprite.svg#icon-library"></use></svg>Сведения об организации</a>
+      <a class="link top__link" href="http://www.ncfu.ru/university/antikorrupcionnaya-deyatelnost/"><svg class="icon"><use xlink:href="img/svg-sprite.svg#icon-warning"></use></svg>Противодействие коррупции</a>
+      <a id="sv_on" class="link top__link" href="#"><svg class="icon"><use xlink:href="img/svg-sprite.svg#icon-eye"></use></svg>Версия для слабовидящих</a>
+      <a class="link top__link" href="site-map"><svg class="icon"><use xlink:href="img/svg-sprite.svg#icon-tree"></use></svg>Карта сайта</a>
+    </div>
+  </div>
+
+  <div class="header">
+    <div class="header__container">
+      <div class="header__wrapper">
+        <div class="header__title">
+          <div class="header__title-wrapper">
+            <a class="header__logo" href="/">
+              <img src="img/logo-new.svg" alt="Северо-Кавказский федеральный университет">
+            </a>
+
+            <h1 class="header__site-name">Северо-Кавказский <br> федеральный университет</h1>
+          </div>
+
+
+        </div>
+        <div class="header__contact">
+
+          <div class="header__kom">
+            <p>Приемная комиссия</p>
+            <p><a href="tel:+78652956813">8&nbsp;(8652)&nbsp;95&#8209;68&#8209;13</a>
+                        <p><a href="mailto:selcom@ncfu.ru">selcom@ncfu.ru</a></p>
+          </div>
+
+          <div class="header__info">
+            <div class="header__info-wrapper">
+              <p><a class="link" href="http://spravka.ncfu.ru"><svg class="icon"><use xlink:href="img/svg-sprite.svg#icon-search"></use></svg><span>Справка СКФУ</span></a></p>
+              <p><a href="tel:+78002006476"><svg class="icon"><use xlink:href="img/svg-sprite.svg#icon-mobile"></use></svg>8-800-200-64-76</a></p>
+              <p><a href="mailto:info@ncfu.ru"><svg class="icon"><use xlink:href="img/svg-sprite.svg#icon-envelop"></use></svg>info@ncfu.ru</a></p>
+            </div>
+
+          </div>
+
+          <div class="header__address">
+            <p><a href="http://www.ncfu.ru/university/institutes/institut-servisa-turizma-i-dizayna-filial-skfu-v-g-pyatigorske/"><svg class="icon"><use xlink:href="img/svg-sprite.svg#icon-library"></use></svg>Филиал в г.&nbsp;Пятигорске</a></p>
+            <p><a href="http://www.ncfu.ru/university/institutes/filial-v-g-nevinnomysske/"><svg class="icon"><use xlink:href="img/svg-sprite.svg#icon-library"></use></svg>Филиал&nbsp;в&nbsp;г.&nbsp;Невинномысске</a></p>
+            <p class="header__idea"><a href="#"><svg class="icon"><use xlink:href="img/svg-sprite.svg#icon-light-bulb"></use></svg>Мой вуз – моя идея!</a></p>
+          </div>
+
+          <div class="header__search">
+            <div class="header__lang">
+              <a href="#"><img width="30" height="19" src="img/russia.svg"></a> | <a href="#"><img width="25" height="16" src="img/uk.svg"></a>
+            </div>
+            <div class="header__search-wrapper">
+              <form class="header__search-from">
+                <input name="q" type="search" placeholder="Поиск" aria-label="Поиск">
+                <button><svg class="icon icon--no-margin"><use xlink:href="img/svg-sprite.svg#icon-search"></use></svg></button>
+              </form>
+              <div class="social">
+                <a href="https://t.me/ncfulife">
+                  <svg class="icon"><use xlink:href="img/svg-sprite.svg#icon-telegram"></use></svg>
+                </a>
+                <a href="http://www.facebook.com/northcfu">
+                  <svg class="icon"><use xlink:href="img/svg-sprite.svg#icon-facebook2"></use></svg>
+                </a>
+                <a href="https://vk.com/ncfu_main">
+                  <svg class="icon"><use xlink:href="img/svg-sprite.svg#icon-vk"></use></svg>
+                </a>
+                <a href="https://www.instagram.com/ncfu_official/">
+                  <svg class="icon"><use xlink:href="img/svg-sprite.svg#icon-instagram"></use></svg>
+                </a>
+                <a href="http://www.youtube.com/channel/UCPW57m5f6gQGBgO7a9Gpt1w">
+                  <svg class="icon"><use xlink:href="img/svg-sprite.svg#icon-youtube"></use></svg>
+                </a>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+
+      </div>
+    </div>
+  </div>
+</header>
+<div class="menu">
+  <div class="menu__container">
+    <nav class="navbar navbar-expand-md navbar-light bg-transparent btco-hover-menu" role="navigation">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#header-menu" aria-controls="header-menu" aria-expanded="false">
+        <svg class="icon icon--no-margin"><use xlink:href="img/svg-sprite.svg#icon-menu"></use></svg>
+      </button>
+
+      <a href="/"><img class="menu__logo" src="img/logo-new-white.svg" height="30" alt="Северо-Кавказский федеральный университет"></a>
+
+
+      <div class="collapse navbar-collapse" id="header-menu" aria-expanded="true" role="navigation">
+        <ul class="nav w-100 d-flex justify-content-center navbar-nav">
+
+          <li class="nav-item dropdown menu__top-link">
+            <a href="http://www.ncfu.ru/export/university/home/" class="nav-link dropdown-toggle  text-uppercase">Университет</a>
+            <ul class="dropdown-menu" data-index="index1">
+              <li class="nav-item">
+                <a href="http://www.ncfu.ru/university/novosti/" class="nav-link  ">Новости</a>
+              </li>
+              <li class="nav-item">
+                <a href="http://www.ncfu.ru/export/university/vizitnaya-kartochka-severo-kavkazskogo-federalnogo-universiteta/" class="nav-link  ">Визитная карточка</a>
+              </li>
+              <li class="nav-item">
+                <a href="http://www.ncfu.ru/export/university/sostav-rektorata-severo-kavkazskogo-federalnogo-universiteta/" class="nav-link  ">Руководство</a>
+              </li>
+              <li class="nav-item">
+                <a href="http://www.ncfu.ru/export/university/popechitelsky-sovet/" class="nav-link  ">Попечительский совет </a>
+              </li>
+              <li class="nav-item">
+                <a href="http://www.ncfu.ru/export/university/nablyudatelnyy-sovet-skfu/" class="nav-link  ">Наблюдательный совет </a>
+              </li>
+              <li class="nav-item dropdown">
+                <a href="http://www.ncfu.ru/university/uchenyy-sovet/" class="nav-link dropdown-toggle  ">Ученый
+                  совет</a>
+                <ul class="dropdown-menu">
+                  <li class="nav-item">
+                    <a href="http://www.ncfu.ru/university/uchenyy-sovet/zasedaniya-uchenogo-soveta/" class="nav-link  ">Заседания Ученого
+                      совета</a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="http://www.ncfu.ru/export/university/uchenyy-sovet/documents/" class="nav-link  ">Документы</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a href="http://www.ncfu.ru/export/university/dokumenty/" class="nav-link  ">Документы</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a href="http://www.ncfu.ru/export/university/samoobsledovanie/" class="nav-link dropdown-toggle  ">Аккредитация</a>
+                <ul class="dropdown-menu">
+                  <li class="nav-item">
+                    <a href="http://www.ncfu.ru/export/university/samoobsledovanie/gos_akkreditaciya/" class="nav-link  ">Государственная
+                      аккредитация </a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="http://www.ncfu.ru/export/university/samoobsledovanie/prof-obschest_akkreditaciya/" class="nav-link  ">Профессионально-общественная
+                      аккредитация</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a href="http://www.ncfu.ru/export/university/progr_razv/" class="nav-link  ">Программа развития
+                  университета </a>
+              </li>
+              <li class="nav-item">
+                <a href="http://www.ncfu.ru/export/university/zakupki/" class="nav-link  ">Закупки</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a href="http://www.ncfu.ru/export/university/profsouz/" class="nav-link dropdown-toggle  ">Профсоюз</a>
+                <ul class="dropdown-menu">
+                  <li class="nav-item">
+                    <a href="http://www.ncfu.ru/export/university/profsouz/pervichnaya-profsoyuznaya-organizaciya-rabotnikov-fgaou-vpo-severo-kavkazskiy-federalnyy-universitet/" class="nav-link  ">Первичная профсоюзная
+                      организация работников СКФУ</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a href="http://www.ncfu.ru/export/university/profsouz/pervichnaya-profsoyuznaya-organizaciya-studentov-i-aspirantov-fgaou-vpo-skfu/" class="nav-link dropdown-toggle  ">Первичная
+                      профсоюзная организация студентов и аспирантов СКФУ</a>
+                    <ul class="dropdown-menu">
+                      <li class="nav-item">
+                        <a href="http://www.ncfu.ru/export/university/profsouz/pervichnaya-profsoyuznaya-organizaciya-studentov-i-aspirantov-fgaou-vpo-skfu/page/" class="nav-link  ">page</a>
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a href="http://www.ncfu.ru/export/university/endaumentfond/" class="nav-link  ">Фонд управления целевым
+                  капиталом </a>
+              </li>
+              <li class="nav-item">
+                <a href="http://www.ncfu.ru/export/university/bezopasnost/" class="nav-link  ">Безопасность
+                  университета </a>
+              </li>
+              <li class="nav-item">
+                <a href="http://www.ncfu.ru/export/university/stop_terror/" class="nav-link  ">Противодействие терроризму и
+                  экстремизму </a>
+              </li>
+              <li class="nav-item">
+                <a href="http://www.ncfu.ru/export/university/antikorrupcionnaya-deyatelnost/" class="nav-link  ">Антикоррупционная
+                  деятельность</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a href="http://www.ncfu.ru/export/university/istoriya-universiteta/" class="nav-link dropdown-toggle  ">История
+                  университета</a>
+                <ul class="dropdown-menu">
+                  <li class="nav-item">
+                    <a href="http://www.ncfu.ru/export/university/istoriya-universiteta/skfu-2012-2017/" class="nav-link  "> СКФУ 2012-2017:
+                      история, цифры, события, лица </a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="http://www.ncfu.ru/export/university/istoriya-universiteta/85-letie/" class="nav-link  ">85-летие СКФУ</a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="http://www.ncfu.ru/export/university/istoriya-universiteta/zaslujennye-professora/" class="nav-link  ">Заслуженные
+                      профессора СКФУ</a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="http://www.ncfu.ru/export/university/istoriya-universiteta/pochetnye-doktora/" class="nav-link  ">Почетные доктора
+                      СКФУ</a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="http://www.ncfu.ru/export/university/istoriya-universiteta/vypuskniki-skfu/" class="nav-link  ">Выпускники СКФУ </a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="http://www.ncfu.ru/export/university/istoriya-universiteta/kniga-pamyati/" class="nav-link  ">Книга памяти</a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="http://www.ncfu.ru/export/university/istoriya-universiteta/skfu-nagrady/" class="nav-link  ">Наши награды </a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a href="http://www.ncfu.ru/university/tochka-kipeniya/" class="nav-link  ">«Точка кипения»</a>
+              </li>
+              <li class="nav-item">
+                <a href="http://www.ncfu.ru/export/university/partnery/" class="nav-link  ">Партнёры</a>
+              </li>
+              <li class="nav-item">
+                <a href="http://www.ncfu.ru/export/university/sveden/" class="nav-link  ">Сведения об образовательной
+                  организации </a>
+              </li>
+              <li class="nav-item dropdown">
+                <a href="http://www.ncfu.ru/university/media/" class="nav-link dropdown-toggle  ">Медиа</a>
+                <ul class="dropdown-menu">
+                  <li class="nav-item">
+                    <a href="http://www.ncfu.ru/university/media/skfu-tv/" class="nav-link  ">СКФУ ТВ</a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="http://www.ncfu.ru/export/university/media/gimn-skfu/" class="nav-link  ">Гимн СКФУ</a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="http://www.ncfu.ru/export/university/media/informacionnyi-studencheskii-molodejnyi-jurnal-nota-bene-obrati-vnimanie/" class="nav-link  ">Информационный
+                      студенческий молодежный журнал «Nota Bene! Обрати
+                      внимание»</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a href="http://www.ncfu.ru/export/university/rekvizity-skfu/" class="nav-link  ">Реквизиты</a>
+              </li>
+              <li class="nav-item">
+                <a href="http://www.ncfu.ru/export/university/dohod/" class="nav-link  ">Сведения о доходах, об
+                  имуществе и обязательствах имущественного характера руководителя
+                  и членов его семьи </a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown menu__top-link">
+            <a href="http://www.ncfu.ru/export/for-students/home/" class="nav-link dropdown-toggle  text-uppercase">Студенту</a>
+            <ul class="dropdown-menu">
+              <li class="nav-item">
+                <a href="http://www.ncfu.ru/for-students/zhizn/" class="nav-link  ">Новости студенческой
+                  жизни </a>
+              </li>
+              <li class="nav-item">
+                <a href="http://www.ncfu.ru/for-students/rasp" class="nav-link  ">Расписание занятий </a>
+              </li>
+              <li class="nav-item">
+                <a href="http://www.ncfu.ru/export/for-students/raspisanie-zvonkov/" class="nav-link  ">Расписание звонков </a>
+              </li>
+              <li class="nav-item">
+                <a href="http://www.ncfu.ru/for-students/stipendii" class="nav-link  ">Стипендии</a>
+              </li>
+              <li class="nav-item">
+                <a href="http://www.ncfu.ru/export/for-students/poryadok-zaseleniya/" class="nav-link  ">Общежития</a>
+              </li>
+              <li class="nav-item">
+                <a href="http://www.ncfu.ru/export/for-students/studencheskie-obedineniya/" class="nav-link  ">Студенческие объединения </a>
+              </li>
+              <li class="nav-item dropdown">
+                <a href="http://www.ncfu.ru/export/for-students/creat/" class="nav-link dropdown-toggle  ">Творчество и
+                  досуг</a>
+                <ul class="dropdown-menu">
+                  <li class="nav-item dropdown">
+                    <a href="http://www.ncfu.ru/export/for-students/creat/tvorcheskie-kollektivy-skfu/" class="nav-link dropdown-toggle  ">Творческие
+                      коллективы СКФУ </a>
+                    <ul class="dropdown-menu">
+                      <li class="nav-item">
+                        <a href="http://www.ncfu.ru/for-students/creat/tvorcheskie-kollektivy-skfu/muzeinyi-centr" class="nav-link  ">Музейный
+                          центр</a>
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a href="http://www.ncfu.ru/export/for-students/creat/tradicionnye-meropriyatiya/" class="nav-link  ">Традиционные
+                      мероприятия </a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a href="http://www.ncfu.ru/for-students/gordost/" class="nav-link  ">Гордость СКФУ</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a href="http://www.ncfu.ru/export/for-students/sport/" class="nav-link dropdown-toggle  ">Спорт</a>
+                <ul class="dropdown-menu">
+                  <li class="nav-item">
+                    <a href="http://www.ncfu.ru/for-students/sport/sport-news/" class="nav-link  ">Новости спорта</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a href="http://www.ncfu.ru/export/for-students/sport/sportivnye-sekcii/" class="nav-link dropdown-toggle  ">Спортивные
+                      секции</a>
+                    <ul class="dropdown-menu">
+                      <li class="nav-item">
+                        <a href="http://www.ncfu.ru/export/for-students/sport/sportivnye-sekcii/grafik-raboty-sportivnyh-sekcii/" class="nav-link  ">График работы
+                          спортивных секций </a>
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a href="http://www.ncfu.ru/export/for-students/sport/sportivnye-obekty-skfu/" class="nav-link  ">Спортивные
+                      объекты</a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="http://www.ncfu.ru/export/for-students/sport/sportivno-ozdorovitelnyi-kompleks" class="nav-link  ">Спортивно-оздоровительный
+                      комплекс</a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="http://www.ncfu.ru/export/for-students/sport/kubok-rektora-skfu/" class="nav-link  ">Кубок ректора
+                      СКФУ </a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="http://www.ncfu.ru/export/for-students/sport/kubok-pervokursnika-skfu/" class="nav-link  ">Кубок первокурсника
+                      СКФУ </a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a href="http://www.ncfu.ru/export/for-students/kuratoru-i-staroste-dokumenty/" class="nav-link dropdown-toggle  ">Куратору и
+                  старосте </a>
+                <ul class="dropdown-menu">
+                  <li class="nav-item">
+                    <a href="http://www.ncfu.ru/export/for-students/kuratoru-i-staroste-dokumenty/documents/" class="nav-link  ">Документы</a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="http://www.ncfu.ru/export/for-students/kuratoru-i-staroste-dokumenty/spisok-kuratorov-po-institutam/" class="nav-link  ">Список кураторов по
+                      институтам </a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="http://www.ncfu.ru/export/for-students/kuratoru-i-staroste-dokumenty/spisok-soveta-kuratorov-universiteta/" class="nav-link  ">Состав Совета
+                      кураторов университета </a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="http://www.ncfu.ru/export/for-students/kuratoru-i-staroste-dokumenty/grafiki-provedeniya-kuratorskih-chasov/" class="nav-link  ">График проведения
+                      кураторских часов </a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="http://www.ncfu.ru/export/for-students/kuratoru-i-staroste-dokumenty/grafik-posescheniya-kulturnyh-centrov-goroda/" class="nav-link  ">График посещения
+                      культурных центров города </a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="http://www.ncfu.ru/export/for-students/kuratoru-i-staroste-dokumenty/kuratoru-i-staroste-meropriyatiya/" class="nav-link  ">Мероприятия</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a href="http://www.ncfu.ru/export/for-students/programma-vybory-skfu-2012/" class="nav-link  ">Совет обучающихся </a>
+              </li>
+              <li class="nav-item">
+                <a href="http://www.ncfu.ru/export/for-students/studentu-obrazovanie/" class="nav-link  ">Образование </a>
+              </li>
+              <li class="nav-item">
+                <a href="http://www.ncfu.ru/export/for-students/eticheskiy-kodeks-studentov-skfu/" class="nav-link  ">Этический кодекс студентов
+                  СКФУ</a>
+              </li>
+              <li class="nav-item">
+                <a href="http://www.ncfu.ru/export/for-students/pamayatka_vuch/" class="nav-link  ">Воинский учет </a>
+              </li>
+              <li class="nav-item">
+                <a href="http://www.ncfu.ru/export/for-students/trudoustroistvo/" class="nav-link  ">Трудоустройство</a>
+              </li>
+              <li class="nav-item">
+                <a href="http://www.ncfu.ru/export/for-students/letniy_otdyh_studentov/" class="nav-link  ">Летний отдых студентов </a>
+              </li>
+              <li class="nav-item">
+                <a href="http://www.ncfu.ru/export/for-students/navigator-po-universitetu/" class="nav-link  ">Навигатор по
+                  университету </a>
+              </li>
+              <li class="nav-item">
+                <a href="http://www.ncfu.ru/for-students/bezopasnost-universiteta" class="nav-link  ">Безопасность
+                  университета </a>
+              </li>
+              <li class="nav-item">
+                <a href="http://www.ncfu.ru/for-students/olimpiady/" class="nav-link  ">Олимпиады</a>
+              </li>
+              <li class="nav-item">
+                <a href="http://www.ncfu.ru/for-students/studencheskii-molodejnyi-jurnal-nota-bene-obrati-vnimanie" class="nav-link  ">Студенческий молодежный
+                  журнал «Nota Bene! Обрати внимание»</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown menu__top-link">
+            <a href="http://www.ncfu.ru/export/science/home/" class="nav-link dropdown-toggle text-uppercase ">Наука</a>
+            <ul class="dropdown-menu">
+              <li class="nav-item">
+                <a href="http://www.ncfu.ru/science/news/" class="nav-link  ">Новости</a>
+              </li>
+              <li class="nav-item">
+                <a href="http://www.ncfu.ru/science/ya-uchnyi/" class="nav-link  ">Я – учёный</a>
+              </li>
+              <li class="nav-item">
+                <a href="http://www.ncfu.ru/science/Upravlenie-nauki-i-tehnologii" class="nav-link  ">Управление науки и
+                  технологий</a>
+              </li>
+              <li class="nav-item">
+                <a href="http://www.ncfu.ru/export/science/nauchnaya-infrastruktura/" class="nav-link  ">Научная инфраструктура </a>
+              </li>
+              <li class="nav-item">
+                <a href="http://www.ncfu.ru/export/science/dissertacionnye-sovety/" class="nav-link  ">Диссертационные советы </a>
+              </li>
+              <li class="nav-item">
+                <a href="http://www.ncfu.ru/export/science/doktorantura/" class="nav-link  ">Докторантура </a>
+              </li>
+              <li class="nav-item">
+                <a href="http://www.ncfu.ru/science/programma-podgotovki-doktorov-nauk/" class="nav-link  ">Программа подготовки докторов
+                  наук в СКФУ</a>
+              </li>
+              <li class="nav-item">
+                <a href="http://www.ncfu.ru/export/science/gotovnost_-diplomov-kandidatov-i-doktorov-nauk/" class="nav-link  ">Готовность дипломов
+                  кандидатов и докторов наук</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a href="http://www.ncfu.ru/export/science/nt-sovet/" class="nav-link dropdown-toggle  ">Научно-технический
+                  совет </a>
+                <ul class="dropdown-menu">
+                  <li class="nav-item">
+                    <a href="http://www.ncfu.ru/export/science/nt-sovet/sostav-nauchno-tehnicheskogo-soveta-skfu/" class="nav-link  ">Состав
+                      научно-технического совета СКФУ </a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a href="http://www.ncfu.ru/export/science/perechen-osnovnih-nachnih-napravlenii-skfu/" class="nav-link  ">Научные направления </a>
+              </li>
+              <li class="nav-item dropdown">
+                <a href="http://www.ncfu.ru/export/science/nauchnye-izdaniya/" class="nav-link dropdown-toggle  ">Научные
+                  издания </a>
+                <ul class="dropdown-menu">
+                  <li class="nav-item">
+                    <a href="http://www.ncfu.ru/export/science/nauchnye-izdaniya/nauka-innovacii-technologii/" class="nav-link  ">Научный журнал
+                      «Наука. Инновации. Технологии»</a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="http://www.ncfu.ru/export/science/nauchnye-izdaniya/nauchnyy-zhurnal-yuridicheskie-issledovaniya/" class="nav-link  ">Научный журнал
+                      «Гуманитарные и юридические исследования» </a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="http://www.ncfu.ru/export/science/nauchnye-izdaniya/nauchnyy-zhurnal-vestnik-skfu/" class="nav-link  ">Научный журнал
+                      «Вестник Северо-Кавказского федерального
+                      университета»</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a href="http://www.ncfu.ru/export/science/scientific-events/" class="nav-link  ">Научные мероприятия </a>
+              </li>
+              <li class="nav-item">
+                <a href="http://www.ncfu.ru/export/science/publ_msc_wos_scop/" class="nav-link  ">Публикационная
+                  активность </a>
+              </li>
+              <li class="nav-item">
+                <a href="http://www.ncfu.ru/export/science/sborniki_nkonf/" class="nav-link  ">Сборники материалов научных
+                  конференций </a>
+              </li>
+              <li class="nav-item dropdown">
+                <a href="http://www.ncfu.ru/export/science/realizaciya-nauchnyh-proektov/" class="nav-link dropdown-toggle  ">Реализация
+                  научных проектов </a>
+                <ul class="dropdown-menu">
+                  <li class="nav-item">
+                    <a href="http://www.ncfu.ru/export/science/realizaciya-nauchnyh-proektov/gi/" class="nav-link  ">ГИ</a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="http://www.ncfu.ru/export/science/realizaciya-nauchnyh-proektov/iehiu/" class="nav-link  ">ИЭиУ</a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="http://www.ncfu.ru/export/science/realizaciya-nauchnyh-proektov/iitt/" class="nav-link  ">ИИТТ</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a href="http://www.ncfu.ru/export/science/konkursy-granty/" class="nav-link  ">Конкурсы, гранты </a>
+              </li>
+              <li class="nav-item">
+                <a href="http://www.ncfu.ru/export/science/nauchnie-shkoly-skfu/" class="nav-link  ">Научные школы </a>
+              </li>
+              <li class="nav-item">
+                <a href="http://www.ncfu.ru/export/science/dokumenty-reglamentiruuie-nauchno-issledovatel_skuu-deyatel_nost_-v-skfu/" class="nav-link  ">Документы, регламентирующие
+                  научно-исследовательскую деятельность в СКФУ</a>
+              </li>
+              <li class="nav-item">
+                <a href="http://www.ncfu.ru/export/science/software/" class="nav-link  ">Обеспеченность программным
+                  обеспечением</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a href="http://www.ncfu.ru/export/science/nir-students/" class="nav-link dropdown-toggle  ">Научно-исследовательская
+                  работа студентов </a>
+                <ul class="dropdown-menu">
+                  <li class="nav-item">
+                    <a href="http://www.ncfu.ru/export/science/nir-students/spisok-chlenov-soveta-molodyh-uchenyh-i-specialistov/" class="nav-link  ">Совет молодых ученых
+                      и специалистов </a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="http://www.ncfu.ru/export/science/nir-students/nauchnie-kruzhki-skfu/" class="nav-link  ">Студенческие научные
+                      объединения </a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a href="http://www.ncfu.ru/export/science/elektronnye-resursy/" class="nav-link dropdown-toggle  ">Электронные
+                  образовательные ресурсы </a>
+                <ul class="dropdown-menu">
+                  <li class="nav-item">
+                    <a href="http://www.ncfu.ru/export/science/elektronnye-resursy/elektronnye-bibliotechnye-sistemy/" class="nav-link  ">Электронные
+                      библиотечные системы </a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="http://www.ncfu.ru/export/science/elektronnye-resursy/rossiyskie-setevye-resursy/" class="nav-link  ">Российские сетевые
+                      ресурсы </a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="http://www.ncfu.ru/export/science/elektronnye-resursy/zarubezhnye-setevye-resursy/" class="nav-link  ">Зарубежные сетевые
+                      ресурсы </a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="http://www.ncfu.ru/export/science/elektronnye-resursy/issledovatelyam-i-prepodavatelyam-naukometriya/" class="nav-link  ">Исследователям и
+                      преподавателям. Наукометрия </a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="http://www.ncfu.ru/science/elektronnye-resursy/antiplagiat" class="nav-link  ">Антиплагиат</a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="http://www.ncfu.ru/export/science/elektronnye-resursy/elektronnye-zhurnaly/" class="nav-link  ">Электронные
+                      журналы </a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a href="http://www.ncfu.ru/export/science/otchety-nid/" class="nav-link  ">Отчеты о
+                  научно-исследовательской деятельности </a>
+              </li>
+              <li class="nav-item">
+                <a href="http://www.ncfu.ru/export/science/patenty-i-svidetelstva/" class="nav-link  ">Патенты и свидетельства
+                  СКФУ </a>
+              </li>
+              <li class="nav-item">
+                <a href="http://www.ncfu.ru/export/science/eksportnyy-kontrol/" class="nav-link  ">Экспортный контроль </a>
+              </li>
+              <li class="nav-item">
+                <a href="http://www.ncfu.ru/export/science/gos_zadanie/" class="nav-link  ">Реализация государственного
+                  задания </a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown menu__top-link">
+            <a href="http://www.ncfu.ru/export/innovations/home/" class="nav-link dropdown-toggle text-uppercase ">Инновации</a>
+            <ul class="dropdown-menu">
+              <li class="nav-item">
+                <a href="http://www.ncfu.ru/innovations/news/" class="nav-link  ">Новости</a>
+              </li>
+              <li class="nav-item">
+                <a href="http://www.ncfu.ru/innovations/npb_innov/" class="nav-link  ">Нормативно-правовая база</a>
+              </li>
+              <li class="nav-item">
+                <a href="http://www.ncfu.ru/innovations/innovacionnaya-infrastruktura/" class="nav-link  ">Инновационная
+                  инфраструктура </a>
+              </li>
+              <li class="nav-item">
+                <a href="http://www.ncfu.ru/innovations/malye-innovacionnye-predpriyatiya/" class="nav-link  ">Малые инновационные
+                  предприятия </a>
+              </li>
+              <li class="nav-item">
+                <a href="http://www.ncfu.ru/innovations/fin_instr/" class="nav-link  ">Поддержка инновационных
+                  проектов </a>
+              </li>
+              <li class="nav-item">
+                <a href="http://www.ncfu.ru/innovations/fvd/" class="nav-link  ">Форумно-выставочная
+                  деятельность </a>
+              </li>
+              <li class="nav-item">
+                <a href="http://www.ncfu.ru/innovations/nt_skfu/" class="nav-link  ">Наукоемкие технологии </a>
+              </li>
+              <li class="nav-item">
+                <a href="http://www.ncfu.ru/innovations/programma-transformacii-skfu-v-universitetskiy-centr-stavropolskogo-kraya/" class="nav-link  ">Программа трансформации СКФУ
+                  в университетский центр Ставропольского края </a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown menu__top-link">
+            <a href="http://www.ncfu.ru/export/education/home/" class="nav-link dropdown-toggle text-uppercase ">Образование</a>
+            <ul class="dropdown-menu">
+              <li class="nav-item dropdown">
+                <a href="http://www.ncfu.ru/export/education/obrazovatelnye-programmy/" class="nav-link dropdown-toggle  ">Образовательные
+                  программы</a>
+                <ul class="dropdown-menu">
+                  <li class="nav-item">
+                    <a href="http://www.ncfu.ru/export/education/obrazovatelnye-programmy/2019-god/" class="nav-link  ">2019 год</a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="http://www.ncfu.ru/export/education/obrazovatelnye-programmy/2018-god/" class="nav-link  ">2018 год</a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="http://www.ncfu.ru/export/education/obrazovatelnye-programmy/2017-god/" class="nav-link  ">2017 год</a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="http://www.ncfu.ru/export/education/obrazovatelnye-programmy/2016-god/" class="nav-link  ">2016 год</a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="http://www.ncfu.ru/export/education/obrazovatelnye-programmy/2015/" class="nav-link  ">2015 год</a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="http://www.ncfu.ru/export/education/obrazovatelnye-programmy/2014/" class="nav-link  ">2014 год</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a href="http://www.ncfu.ru/education/podgotovka-kadrov-vysei-kvalifikacii/" class="nav-link dropdown-toggle  ">Подготовка
+                  кадров высшей квалификации</a>
+                <ul class="dropdown-menu">
+                  <li class="nav-item">
+                    <a href="http://www.ncfu.ru/education/podgotovka-kadrov-vysei-kvalifikacii/aspirantura/" class="nav-link  ">Аспирантура</a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="http://www.ncfu.ru/education/podgotovka-kadrov-vysei-kvalifikacii/ordinatura/" class="nav-link  ">Ординатура </a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="http://www.ncfu.ru/education/podgotovka-kadrov-vysei-kvalifikacii/aksterny/" class="nav-link  ">Экстерны</a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="http://www.ncfu.ru/education/podgotovka-kadrov-vysei-kvalifikacii/prikreplenie-lic-dlya-podgotovki-dissertacii/" class="nav-link  ">Прикрепление лиц для
+                      подготовки диссертации</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a href="http://www.ncfu.ru/education/dop-prof/" class="nav-link dropdown-toggle  ">Дополнительное
+                  профессиональное образование</a>
+                <ul class="dropdown-menu">
+                  <li class="nav-item">
+                    <a href="http://www.ncfu.ru/education/dop-prof/povyenie-kvalifikacii-za-schet-sredstv-zakazchikov/" class="nav-link  ">Повышение
+                      квалификации за счет средств заказчиков </a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="http://www.ncfu.ru/education/dop-prof/programmy-professionalnoy-perepodgotovki/" class="nav-link  ">Программы
+                      профессиональной переподготовки</a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="http://www.ncfu.ru/education/dop-prof/programmy-professionalnoy-podgotovki-dlya-studentov/" class="nav-link  ">Программы
+                      профессиональной подготовки для студентов </a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="http://www.ncfu.ru/education/dop-prof/programmy-izucheniya-inostrannyh-yazykov-v-severo-kavkazskom-federalnom-universitete/" class="nav-link  ">Языковые
+                      программы</a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="http://www.ncfu.ru/education/dop-prof/Kursy-podgotovki-k-sdache-OG-i-EG" class="nav-link  ">Курсы подготовки к
+                      сдаче ОГЭ и ЕГЭ</a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="http://www.ncfu.ru/education/dop-prof/kursy-povysheniya-kvalifikacii-po-programme-obespechenie-ekologicheskoy-bezopasnosti-rukovoditelyami/" class="nav-link  ">Курсы повышения
+                      квалификации по программе "Обеспечение экологической
+                      безопасности руководителями и специалистами
+                      общехозяйственных систем управления"</a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="http://www.ncfu.ru/education/dop-prof/10358-kursy-povysheniya-kvalifikacii/" class="nav-link  ">Курсы повышения
+                      квалификации по программе "Основы современной
+                      региональной культурной политики" </a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="http://www.ncfu.ru/education/dop-prof/aktualnye-voprosy-nalogovogo-zakonodatelstva/" class="nav-link  ">Актуальные вопросы
+                      налогового законодательства </a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="http://www.ncfu.ru/education/dop-prof/pov-kvalifikacii-cifrovaya-transformaciya-anergetika-buduego/" class="nav-link  ">Программа повышения
+                      квалификации «Цифровая трансформация: энергетика
+                      будущего. Концепция интернета энергии (IoE)»</a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="http://www.ncfu.ru/education/dop-prof/pov-kvalifikacii-tehnologii-anergosistem-buduego-smart-grids/" class="nav-link  ">Программа повышения
+                      квалификации «Технологии энергосистем будущего – Smart
+                      Grids»</a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="http://www.ncfu.ru/education/dop-prof/pov-kvalifikacii-metodologiya-proektirovaniya-cifrovyh-podstancii/" class="nav-link  ">Программа повышения
+                      квалификации «Методология проектирования цифровых
+                      подстанций»</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a href="http://www.ncfu.ru/education/yazykovye-programmy" class="nav-link  ">Языковые программы</a>
+              </li>
+              <li class="nav-item">
+                <a href="http://www.ncfu.ru/education/system-education" class="nav-link  ">Система управления обучением
+                  СКФУ</a>
+              </li>
+              <li class="nav-item">
+                <a href="http://www.ncfu.ru/education/software" class="nav-link  ">Обеспеченность программным
+                  обеспечением</a>
+              </li>
+              <li class="nav-item">
+                <a href="http://www.ncfu.ru/education/olimpiady/" class="nav-link  ">Олимпиады в СКФУ</a>
+              </li>
+              <li class="nav-item">
+                <a href="http://www.ncfu.ru/education/alektronnye-obrazovatel_nye-resursy" class="nav-link  ">Электронные образовательные
+                  ресурсы</a>
+              </li>
+              <li class="nav-item">
+                <a href="http://www.ncfu.ru/education/inkluzivnoe-obrazovanie-v-skfu/" class="nav-link  ">Инклюзивное образование в
+                  СКФУ</a>
+              </li>
+              <li class="nav-item">
+                <a href="http://www.ncfu.ru/education/dokumenty-reglamentiruuie-obrazovatelnuu-deyatelnost" class="nav-link  ">Документы, регламентирующие
+                  образовательную деятельность</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown menu__top-link">
+            <a href="http://www.ncfu.ru/abitur/priemnaya-kampaniya-2020/" class="nav-link dropdown-toggle  text-uppercase">Абитуриенту</a>
+            <ul class="dropdown-menu">
+              <li class="nav-item">
+                <a href="http://www.ncfu.ru/abitur/priemnaya-kampaniya-2020/" class="nav-link  ">Приемная кампания-2020</a>
+              </li>
+              <li class="nav-item">
+                <a href="http://www.ncfu.ru/abitur/pr-kom" class="nav-link  ">Приемная комиссия</a>
+              </li>
+              <li class="nav-item">
+                <a href="http://www.ncfu.ru/abitur/ecampus" class="nav-link  ">Информационный стенд приемной
+                  комиссии</a>
+              </li>
+              <li class="nav-item">
+                <a href="http://www.ncfu.ru/abitur/personal_naya-stranica-abiturienta" class="nav-link  ">Персональная страница
+                  абитуриента</a>
+              </li>
+              <li class="nav-item">
+                <a href="http://www.ncfu.ru/abitur/inostrannym-abiturientam" class="nav-link  ">Иностранным абитуриентам </a>
+              </li>
+              <li class="nav-item">
+                <a href="http://www.ncfu.ru/abitur/novosti/" class="nav-link  ">Новости</a>
+              </li>
+              <li class="nav-item">
+                <a href="http://www.ncfu.ru/export/abitur/dod/" class="nav-link  ">Дни открытых дверей в
+                  СКФУ </a>
+              </li>
+              <li class="nav-item dropdown">
+                <a href="http://www.ncfu.ru/export/abitur/podg-k/" class="nav-link dropdown-toggle  ">Подготовительные
+                  курсы </a>
+                <ul class="dropdown-menu">
+                  <li class="nav-item">
+                    <a href="http://www.ncfu.ru/export/abitur/podg-k/podgotovka-koshlnikov-k-uchastiu-v-olimpiadah/" class="nav-link  ">Подготовка школьников
+                      к участию в олимпиадах</a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="http://www.ncfu.ru/export/abitur/podg-k/podgotovitelnye-kursy/" class="nav-link  ">Курсы подготовки к
+                      сдаче ОГЭ и ЕГЭ</a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="http://www.ncfu.ru/export/abitur/podg-k/kursy_tvorch_prof_napravl/" class="nav-link  ">Курсы для прохождения
+                      испытаний творческой и профессиональной
+                      направленности</a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="http://www.ncfu.ru/export/abitur/podg-k/organizaciya-kursov-professionalnogo-masterstva/" class="nav-link  ">Курсы
+                      профессионального мастерства</a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="http://www.ncfu.ru/export/abitur/podg-k/podgotovitelnye-kursy-kafedry-dizayna/" class="nav-link  ">Подготовительные
+                      курсы кафедры дизайна</a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="http://www.ncfu.ru/export/abitur/podg-k/obscheobrazovatelnye-programmy-po-fizike/" class="nav-link  ">Общеобразовательные
+                      программы по физике</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a href="http://www.ncfu.ru/export/abitur/specializirovannye-shkoly/" class="nav-link dropdown-toggle  ">Специализированные
+                  школы</a>
+                <ul class="dropdown-menu">
+                  <li class="nav-item">
+                    <a href="http://www.ncfu.ru/export/abitur/specializirovannye-shkoly/unyi-pravoved/" class="nav-link  ">Юный правовед</a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="http://www.ncfu.ru/export/abitur/specializirovannye-shkoly/shkola-gramotnogo-potrebitelya/" class="nav-link  ">Школа грамотного
+                      потребителя</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a href="http://www.ncfu.ru/export/abitur/letnie-osennie-zimnie-shkoly/" class="nav-link  ">Летние, осенние, зимние
+                  школы</a>
+              </li>
+              <li class="nav-item">
+                <a href="http://www.ncfu.ru/export/abitur/ekskursii-vstrechi-s-rabotodatelyami/" class="nav-link  ">Экскурсии, встречи с
+                  работодателями</a>
+              </li>
+              <li class="nav-item">
+                <a href="http://www.ncfu.ru/export/abitur/grafik-vyezdnyh-meropriyatiy/" class="nav-link  ">График выездных
+                  мероприятий</a>
+              </li>
+              <li class="nav-item">
+                <a href="http://www.ncfu.ru/export/abitur/elektivnye-kursy/" class="nav-link  ">Услуги по чтению элективные
+                  курсов, вебинаров, консультаций для школьников</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a href="http://www.ncfu.ru/export/abitur/olymp-school/" class="nav-link dropdown-toggle  ">Олимпиады для
+                  школьников</a>
+                <ul class="dropdown-menu">
+                  <li class="nav-item">
+                    <a href="http://www.ncfu.ru/abitur/olymp-school/olimp_for_school/" class="nav-link  ">Новости</a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="http://www.ncfu.ru/abitur/olymp-school/grafik_olymp_school/" class="nav-link  ">График проведения
+                      олимпиад школьников</a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="http://www.ncfu.ru/export/abitur/olymp-school/rossiya-v-alektronnom-mire/" class="nav-link  ">Олимпиада школьников
+                      «Россия в электронном мире»</a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="http://www.ncfu.ru/abitur/olymp-school/podgotovka-shkolnikov-k-uchastiyu-v-olimpiada/" class="nav-link  ">Занятия по подготовке
+                      школьников к участию в олимпиадах различного уровня</a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="http://www.ncfu.ru/abitur/olymp-school/sroki-provedeniya-regionalnogo-etapa-vserossiyskoy-olimpiady-shkolnikov-po-obscheobrazovatelnym-pred/" class="nav-link  ">Сроки проведения
+                      регионального этапа всероссийской олимпиады
+                      школьников</a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="http://www.ncfu.ru/abitur/olymp-school/olymp-portal" class="nav-link  ">Портал олимпиад </a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a href="http://www.ncfu.ru/abitur/proforientacionnyi-navigator-dlya-detei-s-ovz" class="nav-link  ">Профориентационный навигатор
+                  для детей с ОВЗ</a>
+              </li>
+              <li class="nav-item">
+                <a href="http://www.ncfu.ru/export/abitur/proftestirovanie/" class="nav-link  ">Профтестирование</a>
+              </li>
+              <li class="nav-item">
+                <a href="http://www.ncfu.ru/export/abitur/budu-studentom/" class="nav-link  ">Образовательное реалити-шоу
+                  «Буду студентом!» </a>
+              </li>
+              <li class="nav-item">
+                <a href="http://www.ncfu.ru/export/abitur/arhiv/" class="nav-link  ">Архив</a>
+              </li>
+              <li class="nav-item">
+                <a href="http://www.ncfu.ru/abitur/stoimost-obucheniya" class="nav-link  ">Стоимость обучения</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown menu__top-link">
+            <a href="http://www.ncfu.ru/export/for-employee/home/" class="nav-link dropdown-toggle  text-uppercase">Сотруднику</a>
+            <ul class="dropdown-menu">
+              <li class="nav-item">
+                <a href="http://www.ncfu.ru/for-employee/list-of-employees/" class="nav-link  ">Личные страницы
+                  сотрудников</a>
+              </li>
+              <li class="nav-item">
+                <a href="http://www.ncfu.ru/for-employee/Podrazdeleniya" class="nav-link  ">Подразделения</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a href="http://www.ncfu.ru/for-employee/ohrana-truda_skfu/" class="nav-link dropdown-toggle  ">Охрана
+                  труда </a>
+                <ul class="dropdown-menu">
+                  <li class="nav-item">
+                    <a href="http://www.ncfu.ru/for-employee/ohrana-truda_skfu/instrukcii-po-obucheniyu/" class="nav-link  ">Инструкции по охране
+                      труда </a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="http://www.ncfu.ru/for-employee/ohrana-truda_skfu/obuchenie-po-ohrane-truda/" class="nav-link  ">Обучение по охране
+                      труда</a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="http://www.ncfu.ru/for-employee/ohrana-truda_skfu/svodnye-vedomosti-rezultatov-provedeniya-specialnoy-ocenki-usloviy-truda/" class="nav-link  ">Сводные ведомости
+                      результатов проведения специальной оценки условий
+                      труда</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a href="http://www.ncfu.ru/for-employee/polojenie-ob-oplate-truda" class="nav-link  ">Положение об оплате труда</a>
+              </li>
+              <li class="nav-item">
+                <a href="http://www.ncfu.ru/for-employee/kol-dog" class="nav-link  ">Коллективный договор СКФУ</a>
+              </li>
+              <li class="nav-item">
+                <a href="http://www.ncfu.ru/for-employee/forma-spiska-trudov/" class="nav-link  ">Форма списка трудов </a>
+              </li>
+              <li class="nav-item">
+                <a href="http://www.ncfu.ru/for-employee/acts" class="nav-link  ">Локальные акты, регулирующие
+                  трудовые и гражданско-правовые отношения </a>
+              </li>
+              <li class="nav-item dropdown">
+                <a href="http://www.ncfu.ru/for-employee/zameshchenie-dolzhnostej/" class="nav-link dropdown-toggle  ">Замещение
+                  должностей </a>
+                <ul class="dropdown-menu">
+                  <li class="nav-item">
+                    <a href="http://www.ncfu.ru/for-employee/zameshchenie-dolzhnostej/obyavleniya-o-konkursah/" class="nav-link  ">Объявления о
+                      конкурсах на замещение должностей</a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="http://www.ncfu.ru/for-employee/zameshchenie-dolzhnostej/rezultaty-konkursa/" class="nav-link  ">Результаты конкурса
+                      на замещение должностей </a>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown menu__top-link">
+            <a href="http://www.ncfu.ru/export/international-activity/home/" class="nav-link dropdown-toggle text-uppercase ">Международная
+              деятельность</a>
+            <ul class="dropdown-menu">
+              <li class="nav-item">
+                <a href="http://www.ncfu.ru/international-activity/international-news/" class="nav-link  ">Новости</a>
+              </li>
+              <li class="nav-item">
+                <a href="http://www.ncfu.ru/international-activity/upravlenie-mejdunarodnogo-sotrudnichestva" class="nav-link  ">Управление международного
+                  сотрудничества</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a href="http://www.ncfu.ru/export/international-activity/inostrannym-studentam/" class="nav-link dropdown-toggle  ">Иностранным
+                  студентам </a>
+                <ul class="dropdown-menu">
+                  <li class="nav-item">
+                    <a href="http://www.ncfu.ru/export/international-activity/inostrannym-studentam/postuplenie-v-skfu-inostrannyh-grajdan/" class="nav-link  ">Поступление в СКФУ
+                      иностранных граждан</a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="http://www.ncfu.ru/export/international-activity/inostrannym-studentam/v-pomo_-inostrannomu-studentu/" class="nav-link  ">В помощь иностранному
+                      студенту</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a href="http://www.ncfu.ru/international-activity/mezhdunarodnye-partnery/" class="nav-link  ">Международные партнеры </a>
+              </li>
+              <li class="nav-item dropdown">
+                <a href="http://www.ncfu.ru/international-activity/acc/" class="nav-link dropdown-toggle  ">Академическая
+                  мобильность</a>
+                <ul class="dropdown-menu">
+                  <li class="nav-item">
+                    <a href="http://www.ncfu.ru/international-activity/acc/2018/" class="nav-link  ">Академическая
+                      мобильность-2018</a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="http://www.ncfu.ru/international-activity/acc/akademicheskaya-mobilnost-cifry-i-fakty/" class="nav-link  "> Цифры и факты </a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="http://www.ncfu.ru/international-activity/acc/story/" class="nav-link  ">Истории студентов и
+                      преподавателей </a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="http://www.ncfu.ru/international-activity/acc/inostrannye-prepodavateli-i-eksperty-v-skfu/" class="nav-link  ">Иностранные
+                      преподаватели и эксперты в СКФУ</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a href="http://www.ncfu.ru/international-activity/stipendii-konkursy-granty/" class="nav-link  ">Стипендии, конкурсы,
+                  гранты</a>
+              </li>
+              <li class="nav-item">
+                <a href="http://www.ncfu.ru/international-activity/inostrannye-prepodavateli/" class="nav-link  ">Иностранные преподаватели</a>
+              </li>
+              <li class="nav-item">
+                <a href="http://www.ncfu.ru/international-activity/uchastie-skfu-v-mezhdunarodnyh-programmah-i-proektah/" class="nav-link  ">Участие в международных
+                  проектах</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+
+    </nav>
+  </div>
+</div>
+
+<main class="content">
+
+  <section class="site-section">
+    <div id="root"></div>
+  </section>
+
+
+</main>
+
+<footer class="footer">
+  <div class="footer__container">
+    <div class="footer__wrapper">
+      <div class="footer__col1">
+        <div class="footer__col1-wrapper">
+          <div class="footer__logo-container">
+            <img class="footer__logo" src="img/logo-new-white.svg">
+          </div>
+
+          <div class="footer__name-container">
+            <p>ФГАОУ ВО «Северо-Кавказский федеральный университет»</p>
+            <p>Официальной информацией о СКФУ могут считаться только материалы, размещённые на сайте ncfu.ru или на сайтах третьего уровня доменной зоны ncfu.ru. За сведения, размещённые на внешних ресурсах, СКФУ ответственности не несёт.</p>
+          </div>
+        </div>
+      </div>
+      <div class="footer__col2">
+        <p><a href="#">Министерство науки и высшего образования Российской Федерации</a></p>
+        <p><a href="#">Министерство просвещения Российской Федерации</a></p>
+        <p><a href="#">Антикоррупционная деятельность</a></p>
+      </div>
+      <div class="footer__col3">
+        <p>Контакт-центр: 8-800-200-64-76<br>
+          (звонок бесплатный)</p>
+        <p><a href="#">Отправить обращение в организацию</a></p>
+      </div>
+      <div class="footer__col4">
+        <p class="footer__title">Приемная комиссия</p>
+        <p>Телефон: 8 (8652) 95-68-13<br>
+          Адрес: 355029, г.&nbsp;Ставрополь, пр. Кулакова, 2 (корпус 10)<br>
+          E-mail: <a href="mailto:selcom@ncfu.ru">selcom@ncfu.ru</a></p>
+      </div>
+      <div class="footer__col5">
+        <p class="footer__title">Контакты</p>
+        <p>ФГАОУ ВО «Северо-Кавказский федеральный университет»<br>
+          Адрес: 355017, г.Ставрополь, ул.&nbsp;Пушкина, 1<br>
+          Телефон: 8 (8652) 95-68-08
+          Факс: 8 (8652) 95-68-03
+          E-mail: <a href="mailto:info@ncfu.ru">info@ncfu.ru</a>
+        </p>
+        <div class="social social--footer">
+          <a href="http://www.facebook.com/northcfu">
+            <svg class="icon"><use xlink:href="img/svg-sprite.svg#icon-facebook2"></use></svg>
+          </a>
+          <a href="https://vk.com/ncfu_main">
+            <svg class="icon"><use xlink:href="img/svg-sprite.svg#icon-vk"></use></svg>
+          </a>
+          <a href="https://www.instagram.com/ncfu_official/">
+            <svg class="icon"><use xlink:href="img/svg-sprite.svg#icon-instagram"></use></svg>
+          </a>
+          <a href="http://www.youtube.com/channel/UCPW57m5f6gQGBgO7a9Gpt1w">
+            <svg class="icon"><use xlink:href="img/svg-sprite.svg#icon-youtube"></use></svg>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</footer>
+
+<script src="/js/single/job.js"></script>
+
+</body>
+</html>
