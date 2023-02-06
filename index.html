@@ -1564,16 +1564,16 @@
         });
       };
 
-      if (window.innerWidth < 1080) {
+      if (window.innerWidth < 768) {
         swiperInit();
       }
 
       window.addEventListener('resize', function() {
-        if (this.innerWidth < 1080 && swiperOb === undefined) {
+        if (this.innerWidth < 768 && swiperOb === undefined) {
           swiperInit();
         }
 
-        if (this.innerWidth > 1080 && swiperOb !== undefined) {
+        if (this.innerWidth > 768 && swiperOb !== undefined) {
           swiperOb.destroy(true, true);
           swiperOb = undefined;
         }

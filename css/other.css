@@ -10160,7 +10160,7 @@ h6 {
       font-size: 2rem;
       margin-bottom: 42px !important; } }
 
-@media (min-width: 1080px) {
+@media (min-width: 768px) {
   .only-mobile {
     display: none !important; } }
 
